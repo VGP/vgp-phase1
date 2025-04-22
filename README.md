@@ -7,8 +7,8 @@ and publication
 - 2025-04-21 - finishing the complete RepeatMasking of all the assemblies
 
 ## definitions:
-- ==primary== the best assembly (haplotype) for the species, to be used in the primary multiple-alignment
-- ==seconday== the alternate haplotype that corresponds to the ==primary== assembly for this species.
+- **primary** the best assembly (haplotype) for the species, to be used in the primary multiple-alignment
+- **seconday** the alternate haplotype that corresponds to the **primary** assembly for this species.
 
 ## counting assemblies (total: 844 = 581 + 263)
 1. primary: 581 == `cut -f16 VGPPhase1-freeze-1.0.tsv | grep -c GC`
@@ -20,10 +20,10 @@ and publication
 There are 246 primary assemblies that have both a GenBank and a RefSeq
 released version from NCBI.  There are four files here to summarize
 the differences between the two assemblies.  The differences are
-always because one or the other assembly will have a ==chrMT== sequence
+always because one or the other assembly will have a **chrMT** sequence
 that is not in the other.
 
 1. 47 identical assemblies, GenBank and RefSeq are identical in all sequences
-2. 44 RefSeq assemblies have an added ==chrMT== sequence from the GenBank assembly
-3. 124 RefSeq has removed the ==chrMT== sequence that was in the GenBank assembly
-4. 31 assemblies have the same count of sequences, but each one has a unique ==chrMT== sequence
+2. 44 RefSeq assemblies have an added **chrMT** sequence from the GenBank assembly
+3. 124 RefSeq has removed the **chrMT** sequence that was in the GenBank assembly
+4. 31 assemblies have the same count of sequences, but each one has a unique **chrMT** sequence
