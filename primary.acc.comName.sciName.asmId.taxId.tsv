@@ -1,6 +1,8 @@
 # primary acc	English common name	scientific name	NCBI assembly ID	NCBI taxId
 GCA_009769605.1	Abyssinian ground hornbill	Bucorvus abyssinicus	GCA_009769605.1_bBucAby1.pri	153643
 GCA_043250625.1	Acadian redfish	Sebastes fasciatus	GCA_043250625.1_fSebFas1.pri	394691
+GCA_040954625.2	acorn worm	Balanoglossus misakiensis	GCA_040954625.2_keBalMisa1.hap1	3154068
+GCA_964194415.1	adder	Vipera berus	GCA_964194415.1_rVipBer3.hap1.1	31155
 GCA_964252035.1	Aegean wall lizard	Podarcis erhardii	GCA_964252035.1_rPodErh1.hap1.1	140042
 GCF_027172205.1	Aeolian wall lizard	Podarcis raffonei	GCF_027172205.1_rPodRaf1.pri	65483
 GCF_037176945.1	African coelacanth	Latimeria chalumnae	GCF_037176945.1_fLatCha1.pri	7897
@@ -23,6 +25,7 @@ GCA_036426135.1	Arabian horse	Equus caballus	GCA_036426135.1_mEquCab1.pat	9796
 GCA_036784965.1	Arctic char	Salvelinus alpinus	GCA_036784965.1_fSalAlp2_p1.0	152111
 GCA_045843805.1	Arctic ground squirrel	Urocitellus parryii	GCA_045843805.1_mUroPar1.hap1	9999
 GCA_946808225.1	Aristotle's catfish	Silurus aristotelis	GCA_946808225.1_fSilAri3.1	933932
+GCA_045364815.1	arrau turtle	Podocnemis expansa	GCA_045364815.1_rPodExp1_haplotype_2	44507
 GCF_024166365.1	Asian elephant	Elephas maximus indicus	GCF_024166365.1_mEleMax1_primary_haplotype	99487
 GCF_902167405.1	Atlantic cod	Gadus morhua	GCF_902167405.1_gadMor3.0	8049
 GCA_964187855.1	Atlantic hagfish	Myxine glutinosa	GCA_964187855.1_kmMyxGlut1.1	7769
@@ -35,36 +38,138 @@ GCF_030144855.1	Atlantic stingray	Hypanus sabinus	GCF_030144855.1_sHypSab1.hap1	
 GCA_964270905.1	Atlantic white-sided dolphin	Lagenorhynchus acutus	GCA_964270905.1_mLagAcu1.hap1.1	3371109
 GCA_965152275.1	Australian flatback sea turtle	Natator depressus	GCA_965152275.1_rNatDep2.hap1	27790
 GCA_042242135.1	Australian herring	Arripis georgiana	GCA_042242135.1_fArrGeo1.hap2	3352246
+GCF_040938575.1	axolotl	Ambystoma mexicanum x Ambystoma tigrinum	GCF_040938575.1_UKY_AmexF1_1	8296
+GCF_963930695.1	ballan wrasse	Labrus bergylta	GCF_963930695.1_fLabBer1.1	56723
+GCA_036971685.2	band-tailed pigeon	Patagioenas fasciata	GCA_036971685.2_bPatFas1.hap2	372321
+GCF_017976425.1	banded archerfish	Toxotes jaculatrix	GCF_017976425.1_fToxJac2.pri	941984
+GCA_037039145.1	banded killifish	Fundulus diaphanus	GCA_037039145.1_fFunDia1.hap1	54267
+GCA_936440315.1	barbel	Barbus barbus	GCA_936440315.1_fBarBab1.1	40830
+GCF_015227805.1	barn swallow	Hirundo rustica	GCF_015227805.1_bHirRus1.pri.v2	43150
+GCA_964273705.1	barred grass snake	Natrix helvetica	GCA_964273705.1_rNatHel1.hap1.1	2025560
+GCA_964194155.1	basking shark	Cetorhinus maximus	GCA_964194155.1_sCetMax3.hap1.1	57982
+GCA_028022735.1	bearded vulture	Gypaetus barbatus	GCA_028022735.1_bGypBar2.pri	33610
+GCA_047511565.1	beardfish	Polymixia lowei	GCA_047511565.1_fPolLow2.hap1	143326
+GCA_019207075.1	belcher's lancelet	Branchiostoma belcheri	GCA_019207075.1_Bb-hap	2700040
 GCA_040894355.2	Bellinger river turtle	Myuchelys georgesi	GCA_040894355.2_rMyuGeo1.pri	1041117
 GCA_046129695.1	Bengalese finch	Lonchura striata domestica	GCA_046129695.1_bLonStr1.mat	40157
 GCA_048537225.1	Bermuda beardfish	Polymixia cf. hollisterae	GCA_048537225.1_ASM4853722v1	3239838
+GCF_027574615.1	big brown bat	Eptesicus fuscus	GCF_027574615.1_DD_ASM_mEF_20220401	29078
+GCF_042477335.2	bighorn sheep	Ovis canadensis	GCF_042477335.2_ARS-UI_OviCan_v2	37174
+GCA_048128805.1	bight redfish	Centroberyx gerrardi	GCA_048128805.1_fCenGer3.hap1.cur.20231027	166262
+GCA_043290085.1	black and rufous elephant shrew	Rhynchocyon petersi	GCA_043290085.1_mRhyPet1.hap1	320637
+GCA_951799975.1	black goby	Gobius niger	GCA_951799975.1_fGobNig1.1	85417
+GCA_041753875.1	black porgy	Acanthopagrus schlegelii	GCA_041753875.1_ASM4175387v1	72011
+GCF_030490865.1	black-capped chickadee	Poecile atricapillus	GCF_030490865.1_bPoeAtr1.hap1	48891
+GCF_963924245.1	black-headed gull	Chroicocephalus ridibundus	GCF_963924245.1_bChrRid1.1	1192867
+GCF_028500815.1	black-legged kittiwake	Rissa tridactyla	GCF_028500815.1_bRisTri1.patW.cur.20221130	75485
+GCA_028022725.1	blackbelly eelpout	Lycodopsis pacificus	GCA_028022725.1_fLycPai1.hap2	1772091
+GCA_047301625.1	blackspot tuskfish	Choerodon schoenleinii	GCA_047301625.1_ASM4730162v1	241275
+GCA_038024135.1	blacktail shiner	Cyprinella venusta	GCA_038024135.1_fCypVen1.hap2	28792
 GCF_025265405.1	Blainville's beaked whale	Mesoplodon densirostris	GCF_025265405.1_mMesDen1_primary_haplotype	48708
+GCA_963514005.1	blonde ray	Raja brachyura	GCA_963514005.1_sRajBra1.1	223862
+GCA_046129655.1	blue jay	Cyanocitta cristata	GCA_046129655.1_bCyaCrs1.hap1	28727
+GCF_027579695.1	blue salmon catfish	Neoarius graeffei	GCF_027579695.1_fNeoGra1.pri	443677
+GCF_009873245.2	blue whale	Balaenoptera musculus	GCF_009873245.2_mBalMus1.pri.v3	9771
+GCA_964030765.1	blue whiting	Micromesistius poutassou	GCA_964030765.1_fMicPou1.1	81636
+GCA_028858755.1	blue-and-gold macaw	Ara ararauna	GCA_028858755.1_bAraAra1.hap1	9226
+GCA_035046505.1	blue-tongue skink	Tiliqua scincoides	GCA_035046505.1_rTilSci1.hap2	71010
+GCF_900634775.1	blunt-snouted clingfish	Gouania willdenowi	GCF_900634775.1_fGouWil2.1	441366
 GCA_964188305.1	Bocage's wall lizard	Podarcis bocagei	GCA_964188305.1_rPodBoc1.hap1.1	90520
 GCF_017639745.1	Boeseman’s rainbowfish	Melanotaenia boesemani	GCF_017639745.1_fMelBoe1.pri	1250792
 GCA_963924005.1	Bolin’s lanternfish	Protomyctophum bolini	GCA_963924005.1_fProBol1.1	443714
 GCA_048565385.1	Bolivian squirrel monkey	Saimiri boliviensis	GCA_048565385.1_mSaiBol1.pri	27679
+GCF_029289425.2	bonobo	Pan paniscus	GCF_029289425.2_NHGRI_mPanPan1-v2.0_pri	9597
 GCF_028885625.2	Bornean orangutan	Pongo pygmaeus	GCF_028885625.2_NHGRI_mPonPyg2-v2.0_pri	9600
 GCA_031878675.1	Botta's pocket gopher	Thomomys bottae	GCA_031878675.1_mThoBot2.hap1	10013
+GCF_011762595.1	bottlenose dolphin	Tursiops truncatus	GCF_011762595.1_mTurTru1.mat.Y	9739
+GCF_036373705.1	bowfin	Amia calva	GCF_036373705.1_fAmiCal2.hap1	7924
 GCF_003369695.1	Brahman cow	Bos taurus	GCF_003369695.1_UOA_Brahman_1	30522
 GCA_963280865.1	Brauer's lanternfish	Gymnoscopelus braueri	GCA_963280865.1_fGymBra2.1	948025
 GCA_030848825.1	Brazilian free-tailed bat	Tadarida brasiliensis	GCA_030848825.1_DD_mTadBra1_pri	9438
 GCA_036873955.1	Brazilian merganser	Mergus octosetaceus	GCA_036873955.1_bMerOct1.hap1	1570318
+GCA_048301445.1	broad-nosed pipefish	Syngnathus typhle	GCA_048301445.1_SynTyp1_v1.hap1	161592
+GCF_037176765.1	brown anole	Anolis sagrei	GCF_037176765.1_rAnoSag1.mat	38937
+GCA_963455305.1	brown big-eared bat	Plecotus auritus	GCA_963455305.1_mPleAur1.1	61862
+GCA_901001165.2	brown trout	Salmo trutta	GCA_901001165.2_fSalTru1.2	8032
+GCF_012275295.1	budgerigar	Melopsittacus undulatus	GCF_012275295.1_bMelUnd1.mat.Z	13146
+GCA_963422515.1	butterfly blenny	Blennius ocellaris	GCA_963422515.1_fBleOce1.1	195075
 GCF_009762305.2	California sea lion	Zalophus californianus	GCF_009762305.2_mZalCal1.pri.v2	9704
 GCA_965231335.1	Canada goose	Branta canadensis	GCA_965231335.1_bBraCan1.1	8853
 GCF_007474595.2	Canada lynx	Lynx canadensis	GCF_007474595.2_mLynCan4.pri.v2	61383
 GCA_047715975.1	Cape dwarf chameleon	Bradypodion pumilum	GCA_047715975.1_rBraPum1.hap1	179887
+GCA_009819595.1	carmine bee-eater	Merops nubicus	GCA_009819595.1_bMerNub1.pri	57421
+GCF_900634415.1	channel bull blenny	Cottoperca gobio	GCF_900634415.1_fCotGob3.1	56716
+GCF_039877785.1	chevron butterflyfish	Chaetodon trifascialis	GCF_039877785.1_fChaTrf1.hap1	109706
 GCA_963969265.1	Chilingali cichlid	Rhamphochromis chilingali	GCA_963969265.1_fRhaChi2.1	454631
+GCF_028858775.2	chimpanzee	Pan troglodytes	GCF_028858775.2_NHGRI_mPanTro3-v2.0_pri	9598
+GCA_048128725.1	chinamanfish	Symphorus nematophorus	GCA_048128725.1_fSymNem1.1_haplotype_1	396798
 GCA_021292165.1	Chinese crocodile lizard	Shinisaurus crocodilurus	GCA_021292165.1_IOZ_Scro_1.0	52224
 GCF_030020395.1	Chinese pangolin	Manis pentadactyla	GCF_030020395.1_mManPen7.hap1	143292
 GCA_031216445.1	Chinese sea bass	Lateolabrax maculatus	GCA_031216445.1_YSFRI_Lmacu_1.1	315492
+GCF_900324465.2	climbing perch	Anabas testudineus	GCF_900324465.2_fAnaTes1.2	64144
+GCA_918807975.1	clonial sea squirt	Aplidium turbinatum	GCA_918807975.1_kaAplTurb1.1	2771288
+GCF_028018385.1	clouded leopard	Neofelis nebulosa	GCF_028018385.1_mNeoNeb1.pri	61452
+GCA_040206685.1	coastal tailed frog	Ascaphus truei	GCA_040206685.1_aAscTru1.hap1	8439
 GCA_965112155.1	Columbretes wall lizard	Podarcis liolepis	GCA_965112155.1_rPodLio1.hap1.1	662736
+GCA_963993115.1	common bream	Abramis brama	GCA_963993115.1_fAbrBra2.1	38527
+GCF_011100635.1	common brushtail possum	Trichosurus vulpecula	GCF_011100635.1_mTriVul1.pri	9337
+GCA_964188355.1	common buzzard	Buteo buteo	GCA_964188355.1_bButBut1.hap1.1	30397
+GCF_963082965.1	common carp	Carassius carassius	GCF_963082965.1_fCarCar2.1	217509
+GCA_963513975.1	common chaffinch	Fringilla coelebs	GCA_963513975.1_bFriCoe1.1	37598
+GCF_017976375.1	common cuckoo	Cuculus canorus	GCF_017976375.1_bCucCan1.pri	55661
+GCF_963576545.1	common dab	Limanda limanda	GCF_963576545.1_fLimLim1.1	27771
+GCA_965113295.1	common dace	Leuciscus leuciscus	GCA_965113295.1_fLeuLeu2.hap1.1	58325
+GCA_963383645.1	common dormouse	Muscardinus avellanarius	GCA_963383645.1_mMusAve1.1	39082
+GCA_964059595.1	common goldeneye	Bucephala clangula	GCA_964059595.1_bBucCla1.1	107022
+GCA_048771875.1	common gundi	Ctenodactylus gundi	GCA_048771875.1_mCteGun2.hap1	10166
+GCF_030028045.1	common hippopotamus	Hippopotamus amphibius	GCF_030028045.1_mHipAmp2.hap2	575201
+GCA_049354715.1	common marmoset	Callithrix jacchus	GCA_049354715.1_calJac240_pri	9483
+GCF_949987535.1	common minke whale	Balaenoptera acutorostrata	GCF_949987535.1_mBalAcu1.1	9767
+GCA_964237585.1	common moorhen	Gallinula chloropus	GCA_964237585.1_bGalChl1.hap1.1	9123
+GCA_027559615.1	common myna	Acridotheres tristis	GCA_027559615.1_bAcrTri1.pri	279927
+GCA_964263255.1	common newt	Lissotriton vulgaris	GCA_964263255.1_aLisVul1.1	8324
+GCF_040807025.1	common ostrich	Struthio camelus australis	GCF_040807025.1_bStrCam1.hap1	8801
+GCA_903992545.1	common pipistrelle	Pipistrellus pipistrellus	GCA_903992545.1_mPipPip1.1	59474
+GCA_964211825.1	common pochard	Aythya ferina	GCA_964211825.1_bAytFer1.hap1.1	219593
+GCA_964197995.1	common rudd	Scardinius erythrophthalmus	GCA_964197995.1_fScaEry2.hap1.1	58319
+GCA_965226575.1	common seabream	Pagrus pagrus	GCA_965226575.1_fPagPag1.hap1.1	8173
+GCF_958295425.1	common sole	Solea solea	GCF_958295425.1_fSolSol10.1	90069
+GCF_036172605.1	common spadefoot toad	Pelobates fuscus	GCF_036172605.1_aPelFus1.pri	191477
+GCF_902459465.1	common starfish	Asterias rubens	GCF_902459465.1_eAstRub1.3	7604
+GCF_020740795.1	common swift	Apus apus	GCF_020740795.1_bApuApu2.pri.cur	8895
+GCA_009819605.1	common tern	Sterna hirundo	GCA_009819605.1_bSteHir1.pri	108405
+GCA_022682495.2	common vampire bat	Desmodus rotundus	GCA_022682495.2_HLdesRot8A.1	9430
+GCA_964188315.1	common wall lizard	Podarcis muralis	GCA_964188315.1_rPodMur119.hap1.1	64176
+GCA_964263955.1	common whitefish	Coregonus lavaretus	GCA_964263955.1_fCorLav1.hap1.1	59291
+GCA_009764595.1	common yellowthroat	Geothlypis trichas	GCA_009764595.1_bGeoTri1.pri	135433
+GCA_020510985.1	convict blenny	Pholidichthys leucotaenia	GCA_020510985.1_fPhoLeu1.pri	390368
+GCF_017976325.1	copperband butterflyfish	Chelmon rostratus	GCF_017976325.1_fCheRos1.pri	109905
+GCF_035609145.1	coqui	Eleutherodactylus coqui	GCF_035609145.1_aEleCoq1.hap1	57060
+GCA_947650265.1	corkwing wrasse	Symphodus melops	GCA_947650265.1_fSymMel2.1	171736
 GCA_964195595.2	Cory's shearwater	Calonectris borealis	GCA_964195595.2_bCalBor7.hap1.2	1323832
+GCF_037993035.1	crab-eating macaque	Macaca fascicularis	GCF_037993035.1_T2T-MFA8v1.0	9541
+GCA_964638095.1	crested bigscale	Poromitra crassiceps	GCA_964638095.1_fPorCra3.hap1.1	88708
+GCA_045345515.1	crested eagle	Morphnus guianensis	GCA_045345515.1_bMorGui1_haplotype_2	252789
+GCA_049082185.1	crested weedfish	Cristiceps australis	GCA_049082185.1_fCriAus1.1_haplotype_1	879810
 GCA_951804945.1	Cretan wall lizard	Podarcis cretensis	GCA_951804945.1_rPodCre2.1	1330250
 GCA_964271855.1	Crete spiny mouse	Acomys minous	GCA_964271855.1_mAcoMin1	83528
+GCF_963584025.1	cuckoo wrasse	Labrus mixtus	GCF_963584025.1_fLabMix1.1	508554
+GCA_034619465.1	cuckoo-roller	Leptosomus discolor	GCA_034619465.1_bLepDis1.hap2	188344
+GCA_020745685.1	cunner	Tautogolabrus adspersus	GCA_020745685.1_fTauAds1.pri.cur	34787
 GCA_043880285.1	Cyclops roundleaf bat	Doryrhina cyclops	GCA_043880285.1_ASM4388028v1	249021
+GCA_030463565.1	dalmatian pelican	Pelecanus crispus	GCA_030463565.1_bPelCri1.pri	36300
 GCA_964234715.1	Dalmatian wall lizard	Podarcis melisellensis	GCA_964234715.1_rPodMel1.hap1.1	65482
+GCF_021462225.1	darkedged splitfin	Girardinichthys multiradiatus	GCF_021462225.1_DD_fGirMul_XY1	208333
 GCF_963259705.1	Daubenton's bat	Myotis daubentonii	GCF_963259705.1_mMyoDau2.1	98922
+GCA_026229955.1	deer mouse	Peromyscus maniculatus	GCA_026229955.1_mPerMan1.0.p	372063
+GCF_900700375.1	denticle herring	Denticeps clupeoides	GCF_900700375.1_fDenClu1.1	299321
+GCF_027887155.1	diamondback terrapin	Malaclemys terrapin	GCF_027887155.1_rMalTer1.hap1	2991368
+GCA_964211835.1	domestic goose	Anser anser	GCA_964211835.1_bAnsAns1.hap1.1	8843
+GCA_040805955.1	domestic sheep	Ovis aries	GCA_040805955.1_T2T-sheep1.0	9940
+GCF_014839835.1	downy woodpecker	Dryobates pubescens	GCF_014839835.1_bDryPub1.pri	118200
 GCF_036321535.1	Dromedary camel	Camelus dromedarius	GCF_036321535.1_mCamDro1.pat	9838
+GCA_030035585.1	dugong	Dugong dugon	GCA_030035585.1_mDugDug1.hap1	29137
+GCF_029582105.1	eastern black-eared wheatear	Oenanthe melanoleuca	GCF_029582105.1_OMel1.0	2939378
 GCA_964374335.1	Eastern happy	Astatotilapia calliptera	GCA_964374335.1_fAstCal68.1	8154
 GCA_037038515.1	Eastern meadow vole	Microtus pennsylvanicus	GCA_037038515.1_mMicPen1.hap1	10058
 GCA_032164245.1	Eastern musk turtle	Sternotherus odoratus	GCA_032164245.1_rSteOdo2_p1.0	142480
@@ -72,6 +177,10 @@ GCA_027917425.1	Eastern narrow-mouthed toad	Gastrophryne carolinensis	GCA_027917
 GCA_039880945.1	Ebon mastiff bat	Molossus nigricans	GCA_039880945.1_mMolNig1.hap1	2997257
 GCA_048569485.1	Edward's Rocket Frog	Anomaloglossus baeobatrachus	GCA_048569485.1_aAnoBae1.hap1	238106
 GCF_014176215.1	Egyptian fruit bat	Rousettus aegyptiacus	GCF_014176215.1_mRouAeg1.p	9407
+GCA_041902795.1	electric eel	Electrophorus electricus	GCA_041902795.1_ASM4190279v1	8005
+GCA_047922985.1	elegant crested tinamou	Eudromia elegans	GCA_047922985.1_bEudEle1_v1.hap1	8805
+GCF_036370855.1	emu	Dromaius novaehollandiae	GCF_036370855.1_bDroNov1.hap1	8790
+GCF_020745735.1	epaulette shark	Hemiscyllium ocellatum	GCF_020745735.1_sHemOce1.pat.X.cur.	170820
 GCF_024139225.1	Etruscan shrew	Suncus etruscus	GCF_024139225.1_mSunEtr1.pri.cur	109475
 GCA_964273445.1	Eurasian collared-dove	Streptopelia decaocto	GCA_964273445.1_bStrDea1.hap1.1	177147
 GCA_964106855.1	Eurasian crane	Grus grus	GCA_964106855.1_bGruGru1.hap1.1	40816
@@ -116,233 +225,20 @@ GCF_905171765.1	European toad	Bufo bufo	GCF_905171765.1_aBufBuf1.1	8384
 GCA_901699155.2	European turtle dove	Streptopelia turtur	GCA_901699155.2_bStrTur1.2	177155
 GCF_903992535.2	European water vole	Arvicola amphibius	GCF_903992535.2_mArvAmp1.2	1047088
 GCF_947179515.1	European woodmouse	Apodemus sylvaticus	GCF_947179515.1_mApoSyl1.1	10129
-GCA_964270895.1	Filfola wall lizard	Podarcis filfolensis	GCA_964270895.1_rPodFil1.hap1.1	65481
-GCA_038048845.1	Fleay's barred frog	Mixophyes fleayi	GCA_038048845.1_aMixFle1.hap1	3061075
-GCA_015852565.1	Florida amphioxus	Branchiostoma floridae	GCA_015852565.1_bf_hap-2	2700039
-GCF_030035675.1	Florida worm lizard	Rhineura floridana	GCF_030035675.1_rRhiFlo1.hap2	261503
-GCF_902459505.1	Gaboon caecilian	Geotrypetes seraphini	GCF_902459505.1_aGeoSer1.1	260995
-GCA_965115925.1	Geoffroy's bat	Myotis emarginatus	GCA_965115925.1_mMyoEma1.hap1.1	109480
-GCF_011100685.1	German shepherd dog	Canis lupus familiaris	GCF_011100685.1_UU_Cfam_GSD_1.0	9615
-GCF_007399415.2	Goode's Thornscrub Tortoise	Gopherus evgoodei	GCF_007399415.2_rGopEvg1_v1.p	1825980
-GCA_043880545.1	Greater mouse-tailed bat	Rhinopoma microphyllum	GCA_043880545.1_ASM4388054v1	173903
-GCA_905319855.2	Greenland wolf	Canis lupus orion	GCA_905319855.2_mCanLor1.2	9612
-GCA_964339955.1	Hanaki's dwarf bat	Pipistrellus hanaki	GCA_964339955.1_mPipHan1.1	412090
-GCF_020740725.1	Hawaiian crow	Corvus hawaiiensis	GCF_020740725.1_bCorHaw1.pri.cur	134902
-GCA_965152235.1	Hawksbill sea turtle	Eretmochelys imbricata	GCA_965152235.1_rEreImb1.hap1	27787
-GCA_027474245.1	Humboldt penguin	Spheniscus humboldti	GCA_027474245.1_bSphHub1.pri	9240
-GCA_947247035.1	Hungarian meadow viper	Vipera ursinii	GCA_947247035.1_rVipUrs1.1	103942
-GCA_036172795.1	Iberian parsley frog	Pelodytes ibericus	GCA_036172795.1_aPelIbe1.pri	233781
-GCA_026652325.1	Iberian ribbed newt	Pleurodeles waltl	GCA_026652325.1_ASM2665232v1	8319
-GCA_964106645.2	Ibiza wall lizard	Podarcis pityusensis	GCA_964106645.2_rPodPit1.hap1.2	74359
-GCA_030020295.1	Indian gharial	Gavialis gangeticus	GCA_030020295.1_rGavGan2.hap2	94835
-GCF_900634625.1	Indian glassy fish	Parambassis ranga	GCF_900634625.1_fParRan2.1	210632
-GCA_045781085.1	Indian roofed turtle	Pangshura tecta	GCA_045781085.1_rPanTec1.hap2	260642
-GCF_013368585.1	Indo-pacific tarpon	Megalops cyprinoides	GCF_013368585.1_fMegCyp1.pri	118141
-GCA_964188175.1	Italian wall lizard	Podarcis siculus	GCA_964188175.1_rPodSic1.hap1.1	65484
-GCF_901000725.2	Japanese puffer (torafugu)	Takifugu rubripes	GCF_901000725.2_fTakRub1.2	31033
-GCF_044704955.1	Japanese sawshark	Pristiophorus japonicus	GCF_044704955.1_sPriJap1.hap1	55135
-GCA_960531495.1	John dory	Zeus faber	GCA_960531495.1_fZeuFab8.1	64108
-GCA_027574665.1	Kagu	Rhynochetos jubatus	GCA_027574665.1_bRhyJub1.pri	54386
-GCA_965140285.1	Kemp's ridley sea turtle	Lepidochelys kempii	GCA_965140285.1_rLepKem1.hap1	8472
-GCF_009829125.3	Korean giant-fin mudskipper	Periophthalmus magnuspinnatus	GCF_009829125.3_fPerMag1.2.pri	409849
-GCF_014108245.1	Kuhl's pipistrelle	Pipistrellus kuhlii	GCF_014108245.1_mPipKuh1.p	59472
-GCF_023638135.1	Lanner falcon	Falco biarmicus	GCF_023638135.1_bFalBia1.pri	345155
-GCA_963921795.1	Lantern fish	Nannobrachium achirus	GCA_963921795.1_fNanAch1.1	473322
-GCF_020740685.1	Lesser Egyptian jerboa	Jaculus jaculus	GCF_020740685.1_mJacJac1.mat.Y.cur	51337
-GCA_043880595.1	Lesser false vampire bat	Megaderma spasma	GCA_043880595.1_ASM4388059v1	9414
-GCF_015220235.1	Linnaeus's two-toed sloth	Choloepus didactylus	GCF_015220235.1_mChoDid1.pri	27675
-GCA_036417535.1	MacQueen's bustard	Chlamydotis macqueenii	GCA_036417535.1_bChlMac1.mat	187382
-GCA_017639555.1	Maguari stork	Ciconia maguari	GCA_017639555.1_bCicMag1.pri	52777
-GCA_031878705.1	Malayan tapir	Tapirus indicus	GCA_031878705.1_mTapInd1.hap2	9802
-GCA_963210335.1	Mauritius kestrel	Falco punctatus	GCA_963210335.1_bFalPun1.1	148596
-GCA_963264785.1	Mauritius parakeet	Psittacula echo	GCA_963264785.1_bPsiEch3.1	232653
-GCA_039655065.1	Merriam's long-tongued bat	Glossophaga mutica	GCA_039655065.1_mGloMut1.hap1	2994998
-GCA_037306005.1	Mexican burrowing toad	Rhinophrynus dorsalis	GCA_037306005.1_aRhiDor1.hap1	43566
-GCF_025201925.1	Mexican gopher tortoise	Gopherus flavomarginatus	GCF_025201925.1_rGopFla2.mat.asm	286002
-GCF_048164855.1	Mexican gray wolf	Canis lupus baileyi	GCF_048164855.1_mCanLup2.hap1	143281
-GCF_023375975.1	Mexican tetra	Astyanax mexicanus	GCF_023375975.1_AstMex3_surface	7994
-GCA_964656225.1	Nathusius's pipistrelle	Pipistrellus nathusii	GCA_964656225.1_mPipNat1.hap1.1	59473
-GCA_964212035.2	Natterer's bat	Myotis nattereri	GCA_964212035.2_mMyoNat1.hap1.2	109481
-GCF_027579445.1	Nelson's sparrow	Ammospiza nelsoni	GCF_027579445.1_bAmmNel1.pri	2857394
-GCF_009650955.1	New Caledonian crow	Corvus moneduloides	GCF_009650955.1_bCorMon1.pri	1196302
-GCF_009762535.1	New Zealand spotty wrasse	Notolabrus celidotus	GCF_009762535.1_fNotCel1.pri	1203425
-GCF_036013445.1	Nicobar pigeon	Caloenas nicobarica	GCF_036013445.1_bCalNic1.hap1	187106
-GCA_011762505.3	Nile rat	Arvicanthis niloticus	GCA_011762505.3_mArvNil1.pat.X	61156
-GCA_024256435.1	North African catfish	Clarias gariepinus	GCA_024256435.1_CGAR_Hap1	13013
-GCA_047511655.1	North American beaver	Castor canadensis	GCA_047511655.1_mCasCan1.hap1	51338
-GCA_028451465.1	North American porcupine	Erethizon dorsatum	GCA_028451465.1_mEreDor1.pri	34844
-GCA_949752795.1	North Atlantic bottlenose whale	Hyperoodon ampullatus	GCA_949752795.1_mHypAmp2.1	48744
-GCF_028564815.1	North Atlantic right whale	Eubalaena glacialis	GCF_028564815.1_mEubGla1.1.hap2._XY	27606
-GCF_036417845.1	North Island brown kiwi	Apteryx mantelli	GCF_036417845.1_bAptMan1.hap1	2696672
-GCA_965231255.1	Northern Lapwing	Vanellus vanellus	GCA_965231255.1_bVanVan1.hap1.1	100859
-GCA_046255685.1	Northern cavefish	Amblyopsis spelaea	GCA_046255685.1_fAmbSpe1.hap1	1195602
-GCA_031468815.1	Northern gannet	Morus bassanus	GCA_031468815.1_bMorBas2.hap2	37578
-GCF_929443795.1	Northern goshawk	Accipiter gentilis	GCF_929443795.1_bAccGen1.1	8957
-GCF_011004845.1	Northern pike	Esox lucius	GCF_011004845.1_fEsoLuc1.pri	8010
-GCA_043748575.1	Northern woolly horseshoe bat	Rhinolophus perniger lanosus	GCA_043748575.1_ASM4374857v1	3030661
-GCF_015227675.2	Norway rat	Rattus norvegicus	GCF_015227675.2_mRatBN7.2	10116
-GCA_963082875.1	Orange-tipped sea squirt	Corella eumyota	GCA_963082875.1_kaCorEumy4.1	431183
-GCA_048544225.1	Osbeck's grenadier anchovy	Coilia mystus	GCA_048544225.1_fCoiMys1.hap2	286537
-GCF_027409825.1	Pacific chub mackerel	Scomber japonicus	GCF_027409825.1_fScoJap1.pri	13676
-GCA_965140295.1	Pacific ridley	Lepidochelys olivacea	GCA_965140295.1_rLepOli2.hap1	27788
-GCF_014108415.1	Pallas's mastiff bat	Molossus molossus	GCF_014108415.1_mMolMol1.p	27622
-GCA_038501925.1	Peter's clawed frog	Xenopus petersii	GCA_038501925.1_aXenPet1.paternal.cur	288555
-GCF_027409185.1	Philippine flying lemur	Cynocephalus volans	GCF_027409185.1_mCynVol1.pri	110931
-GCF_963930625.1	Reeves' muntjac	Muntiacus reevesi	GCF_963930625.1_mMunRee1.1	9886
-GCA_048301585.1	Rhinogobio nasutus	Rhinogobio nasutus	GCA_048301585.1_ASM4830158v1	2590489
-GCF_028023285.1	Rice's whale	Balaenoptera ricei	GCF_028023285.1_mBalRic1.hap2	2746895
-GCF_040937935.1	Riggenbach's reed frog	Hyperolius riggenbachi	GCF_040937935.1_aHypRig1.pri	752182
-GCA_964374135.1	Risso's dolphin	Grampus griseus	GCA_964374135.1_mGraGri1.hap1.1	83653
-GCF_030014385.1	Rosablanca cavefish	Trichomycterus rosablanca	GCF_030014385.1_fTriRos1.hap1	2290929
-GCF_029499605.1	Sardinian treefrog	Hyla sarda	GCF_029499605.1_aHylSar1.hap1	327740
-GCA_031885435.1	Savannah sparrow	Passerculus sandwichensis	GCA_031885435.1_bPasSan2.pri	161624
-GCA_964146895.2	Schreibers' long-fingered bat	Miniopterus schreibersii	GCA_964146895.2_mMinSch1.hap1.2	9433
-GCF_900634795.4	Siamese fighting fish	Betta splendens	GCF_900634795.4_fBetSpl5.4	158456
-GCA_964106915.2	Skyros wall lizard	Podarcis gaigeae	GCA_964106915.2_rPodGai1.hap1.2	90521
-GCA_046126795.1	Smith's blind skink	Dibamus smithi	GCA_046126795.1_rDibSmi1.hap1	3379902
-GCA_029215775.1	Southern California legless lizard	Anniella stebbinsi	GCA_029215775.1_rAnnSte1.0.hap1	2202111
-GCF_023053635.1	Southern alligator lizard	Elgaria multicarinata webbii	GCF_023053635.1_rElgMul1.1.pri	159646
-GCF_020826845.1	Southern black rhinoceros	Diceros bicornis minor	GCF_020826845.1_mDicBic1.mat.cur	77932
-GCF_028390025.1	Southern corroboree frog	Pseudophryne corroboree	GCF_028390025.1_aPseCor3.hap2	495146
-GCF_903995425.1	Southern grasshopper mouse	Onychomys torridus	GCF_903995425.1_mOncTor1.1	38674
-GCA_048126345.1	Southern marsupial mole	Notoryctes typhlops	GCA_048126345.1_UniMelb_NotTyph_v1.0	37699
-GCA_023851605.1	Southern tamandua 	Tamandua tetradactyla	GCA_023851605.1_mTamTet1.pri	48850
-GCA_964165515.1	Sowerby's beaked whale	Mesoplodon bidens	GCA_964165515.1_mMesBid2.hap1.1	48745
-GCA_043727835.1	Stoliczka's trident bat	Aselliscus stoliczkanus	GCA_043727835.1_ASM4372783v1	188568
-GCF_028885655.2	Sumatran orangutan	Pongo abelii 	GCF_028885655.2_NHGRI_mPonAbe1-v2.0_pri	9601
-GCA_033349115.1	Suwannee snapping turtle	Macrochelys suwanniensis	GCA_033349115.1_rMacSuw1.hap2	3026461
-GCF_009819885.2	Swainson's thrush	Catharus ustulatus	GCF_009819885.2_bCatUst1.pri.v2	91951
-GCF_028372415.1	Tammar wallaby	Macropus eugenii	GCF_028372415.1_mMacEug1.pri_v2	9315
-GCA_048593225.1	Tasmanian devil	Sarcophilus harrisii	GCA_048593225.1_ASM4859322v1	9305
-GCA_965202585.1	Thalia democratica	Thalia democratica	GCA_965202585.1_ktThaDemo2.hap1.1	34761
-GCA_026230055.1	Townsend's big-eared bat	Corynorhinus townsendii	GCA_026230055.1_mCorTow1.0.hap1	124745
-GCA_963675345.1	Trididemnum clinides	Trididemnum clinides	GCA_963675345.1_kaTriClin1.1	641091
-GCA_964341445.1	True's beaked whale	Mesoplodon mirus	GCA_964341445.1_mMesMir1.hap1.1	52113
-GCA_965153285.1	Tyrrhenian wall lizard	Podarcis tiliguerta	GCA_965153285.1_rPodTil1.hap1.1	65485
-GCA_040939525.1	West African lungfish	Protopterus annectens	GCA_040939525.1_ASM4093952v1	7888
-GCA_951394365.1	Western capercaillie	Tetrao urogallus	GCA_951394365.1_bTetUro1.1	100830
-GCA_965178545.1	Western jackdaw	Coloeus monedula	GCA_965178545.1_bColMon1.hap1.1	30423
-GCF_009769535.1	Western terrestrial garter snake	Thamnophis elegans	GCF_009769535.1_rThaEle1.pri	35005
-GCA_023333525.2	Western whiptail stejnegeri	Aspidoscelis tigris stejnegeri	GCA_023333525.2_rAspTig1.1.pri	2917703
-GCA_048301465.1	West Atlantic trumpetfish	Aulostomus maculatus	GCA_048301465.1_ASM4830146v1	150449
-GCA_045364795.1	Xingu scale-backed antbird	Willisornis vidua	GCA_045364795.1_bWilVid1_haplotype_1	1566151
-GCA_043880425.1	Yong hoi sen's woolly horseshoe bat	Rhinolophus yonghoiseni	GCA_043880425.1_ASM4388042v1	2952509
-GCA_040954625.2	acorn worm	Balanoglossus misakiensis	GCA_040954625.2_keBalMisa1.hap1	3154068
-GCA_964194415.1	adder	Vipera berus	GCA_964194415.1_rVipBer3.hap1.1	31155
-GCA_045364815.1	arrau turtle	Podocnemis expansa	GCA_045364815.1_rPodExp1_haplotype_2	44507
-GCF_040938575.1	axolotl	Ambystoma mexicanum x Ambystoma tigrinum	GCF_040938575.1_UKY_AmexF1_1	8296
-GCF_963930695.1	ballan wrasse	Labrus bergylta	GCF_963930695.1_fLabBer1.1	56723
-GCA_036971685.2	band-tailed pigeon	Patagioenas fasciata	GCA_036971685.2_bPatFas1.hap2	372321
-GCF_017976425.1	banded archerfish	Toxotes jaculatrix	GCF_017976425.1_fToxJac2.pri	941984
-GCA_037039145.1	banded killifish	Fundulus diaphanus	GCA_037039145.1_fFunDia1.hap1	54267
-GCA_936440315.1	barbel	Barbus barbus	GCA_936440315.1_fBarBab1.1	40830
-GCF_015227805.1	barn swallow	Hirundo rustica	GCF_015227805.1_bHirRus1.pri.v2	43150
-GCA_964273705.1	barred grass snake	Natrix helvetica	GCA_964273705.1_rNatHel1.hap1.1	2025560
-GCA_964194155.1	basking shark	Cetorhinus maximus	GCA_964194155.1_sCetMax3.hap1.1	57982
-GCA_028022735.1	bearded vulture	Gypaetus barbatus	GCA_028022735.1_bGypBar2.pri	33610
-GCA_047511565.1	beardfish	Polymixia lowei	GCA_047511565.1_fPolLow2.hap1	143326
-GCA_019207075.1	belcher's lancelet	Branchiostoma belcheri	GCA_019207075.1_Bb-hap	2700040
-GCF_027574615.1	big brown bat	Eptesicus fuscus	GCF_027574615.1_DD_ASM_mEF_20220401	29078
-GCF_042477335.2	bighorn sheep	Ovis canadensis	GCF_042477335.2_ARS-UI_OviCan_v2	37174
-GCA_048128805.1	bight redfish	Centroberyx gerrardi	GCA_048128805.1_fCenGer3.hap1.cur.20231027	166262
-GCA_043290085.1	black and rufous elephant shrew	Rhynchocyon petersi	GCA_043290085.1_mRhyPet1.hap1	320637
-GCA_951799975.1	black goby	Gobius niger	GCA_951799975.1_fGobNig1.1	85417
-GCA_041753875.1	black porgy	Acanthopagrus schlegelii	GCA_041753875.1_ASM4175387v1	72011
-GCF_030490865.1	black-capped chickadee	Poecile atricapillus	GCF_030490865.1_bPoeAtr1.hap1	48891
-GCF_963924245.1	black-headed gull	Chroicocephalus ridibundus	GCF_963924245.1_bChrRid1.1	1192867
-GCF_028500815.1	black-legged kittiwake	Rissa tridactyla	GCF_028500815.1_bRisTri1.patW.cur.20221130	75485
-GCA_028022725.1	blackbelly eelpout	Lycodopsis pacificus	GCA_028022725.1_fLycPai1.hap2	1772091
-GCA_047301625.1	blackspot tuskfish	Choerodon schoenleinii	GCA_047301625.1_ASM4730162v1	241275
-GCA_038024135.1	blacktail shiner	Cyprinella venusta	GCA_038024135.1_fCypVen1.hap2	28792
-GCA_963514005.1	blonde ray	Raja brachyura	GCA_963514005.1_sRajBra1.1	223862
-GCA_046129655.1	blue jay	Cyanocitta cristata	GCA_046129655.1_bCyaCrs1.hap1	28727
-GCF_027579695.1	blue salmon catfish	Neoarius graeffei	GCF_027579695.1_fNeoGra1.pri	443677
-GCF_009873245.2	blue whale	Balaenoptera musculus	GCF_009873245.2_mBalMus1.pri.v3	9771
-GCA_964030765.1	blue whiting	Micromesistius poutassou	GCA_964030765.1_fMicPou1.1	81636
-GCA_028858755.1	blue-and-gold macaw	Ara ararauna	GCA_028858755.1_bAraAra1.hap1	9226
-GCA_035046505.1	blue-tongue skink	Tiliqua scincoides	GCA_035046505.1_rTilSci1.hap2	71010
-GCF_900634775.1	blunt-snouted clingfish	Gouania willdenowi	GCF_900634775.1_fGouWil2.1	441366
-GCF_029289425.2	bonobo	Pan paniscus	GCF_029289425.2_NHGRI_mPanPan1-v2.0_pri	9597
-GCF_011762595.1	bottlenose dolphin	Tursiops truncatus	GCF_011762595.1_mTurTru1.mat.Y	9739
-GCF_036373705.1	bowfin	Amia calva	GCF_036373705.1_fAmiCal2.hap1	7924
-GCA_048301445.1	broad-nosed pipefish	Syngnathus typhle	GCA_048301445.1_SynTyp1_v1.hap1	161592
-GCF_037176765.1	brown anole	Anolis sagrei	GCF_037176765.1_rAnoSag1.mat	38937
-GCA_963455305.1	brown big-eared bat	Plecotus auritus	GCA_963455305.1_mPleAur1.1	61862
-GCA_901001165.2	brown trout	Salmo trutta	GCA_901001165.2_fSalTru1.2	8032
-GCF_012275295.1	budgerigar	Melopsittacus undulatus	GCF_012275295.1_bMelUnd1.mat.Z	13146
-GCA_963422515.1	butterfly blenny	Blennius ocellaris	GCA_963422515.1_fBleOce1.1	195075
-GCA_009819595.1	carmine bee-eater	Merops nubicus	GCA_009819595.1_bMerNub1.pri	57421
-GCF_900634415.1	channel bull blenny	Cottoperca gobio	GCF_900634415.1_fCotGob3.1	56716
-GCF_039877785.1	chevron butterflyfish	Chaetodon trifascialis	GCF_039877785.1_fChaTrf1.hap1	109706
-GCF_028858775.2	chimpanzee	Pan troglodytes	GCF_028858775.2_NHGRI_mPanTro3-v2.0_pri	9598
-GCA_048128725.1	chinamanfish	Symphorus nematophorus	GCA_048128725.1_fSymNem1.1_haplotype_1	396798
-GCF_900324465.2	climbing perch	Anabas testudineus	GCF_900324465.2_fAnaTes1.2	64144
-GCA_918807975.1	clonial sea squirt	Aplidium turbinatum	GCA_918807975.1_kaAplTurb1.1	2771288
-GCF_028018385.1	clouded leopard	Neofelis nebulosa	GCF_028018385.1_mNeoNeb1.pri	61452
-GCA_040206685.1	coastal tailed frog	Ascaphus truei	GCA_040206685.1_aAscTru1.hap1	8439
-GCA_963993115.1	common bream	Abramis brama	GCA_963993115.1_fAbrBra2.1	38527
-GCF_011100635.1	common brushtail possum	Trichosurus vulpecula	GCF_011100635.1_mTriVul1.pri	9337
-GCA_964188355.1	common buzzard	Buteo buteo	GCA_964188355.1_bButBut1.hap1.1	30397
-GCF_963082965.1	common carp	Carassius carassius	GCF_963082965.1_fCarCar2.1	217509
-GCA_963513975.1	common chaffinch	Fringilla coelebs	GCA_963513975.1_bFriCoe1.1	37598
-GCF_017976375.1	common cuckoo	Cuculus canorus	GCF_017976375.1_bCucCan1.pri	55661
-GCF_963576545.1	common dab	Limanda limanda	GCF_963576545.1_fLimLim1.1	27771
-GCA_965113295.1	common dace	Leuciscus leuciscus	GCA_965113295.1_fLeuLeu2.hap1.1	58325
-GCA_963383645.1	common dormouse	Muscardinus avellanarius	GCA_963383645.1_mMusAve1.1	39082
-GCA_964059595.1	common goldeneye	Bucephala clangula	GCA_964059595.1_bBucCla1.1	107022
-GCA_048771875.1	common gundi	Ctenodactylus gundi	GCA_048771875.1_mCteGun2.hap1	10166
-GCF_030028045.1	common hippopotamus	Hippopotamus amphibius	GCF_030028045.1_mHipAmp2.hap2	575201
-GCA_049354715.1	common marmoset	Callithrix jacchus	GCA_049354715.1_calJac240_pri	9483
-GCF_949987535.1	common minke whale	Balaenoptera acutorostrata	GCF_949987535.1_mBalAcu1.1	9767
-GCA_964237585.1	common moorhen	Gallinula chloropus	GCA_964237585.1_bGalChl1.hap1.1	9123
-GCA_027559615.1	common myna	Acridotheres tristis	GCA_027559615.1_bAcrTri1.pri	279927
-GCA_964263255.1	common newt	Lissotriton vulgaris	GCA_964263255.1_aLisVul1.1	8324
-GCF_040807025.1	common ostrich	Struthio camelus australis	GCF_040807025.1_bStrCam1.hap1	8801
-GCA_903992545.1	common pipistrelle	Pipistrellus pipistrellus	GCA_903992545.1_mPipPip1.1	59474
-GCA_964211825.1	common pochard	Aythya ferina	GCA_964211825.1_bAytFer1.hap1.1	219593
-GCA_964197995.1	common rudd	Scardinius erythrophthalmus	GCA_964197995.1_fScaEry2.hap1.1	58319
-GCA_965226575.1	common seabream	Pagrus pagrus	GCA_965226575.1_fPagPag1.hap1.1	8173
-GCF_958295425.1	common sole	Solea solea	GCF_958295425.1_fSolSol10.1	90069
-GCF_036172605.1	common spadefoot toad	Pelobates fuscus	GCF_036172605.1_aPelFus1.pri	191477
-GCF_902459465.1	common starfish	Asterias rubens	GCF_902459465.1_eAstRub1.3	7604
-GCF_020740795.1	common swift	Apus apus	GCF_020740795.1_bApuApu2.pri.cur	8895
-GCA_009819605.1	common tern	Sterna hirundo	GCA_009819605.1_bSteHir1.pri	108405
-GCA_022682495.2	common vampire bat	Desmodus rotundus	GCA_022682495.2_HLdesRot8A.1	9430
-GCA_964188315.1	common wall lizard	Podarcis muralis	GCA_964188315.1_rPodMur119.hap1.1	64176
-GCA_964263955.1	common whitefish	Coregonus lavaretus	GCA_964263955.1_fCorLav1.hap1.1	59291
-GCA_009764595.1	common yellowthroat	Geothlypis trichas	GCA_009764595.1_bGeoTri1.pri	135433
-GCA_020510985.1	convict blenny	Pholidichthys leucotaenia	GCA_020510985.1_fPhoLeu1.pri	390368
-GCF_017976325.1	copperband butterflyfish	Chelmon rostratus	GCF_017976325.1_fCheRos1.pri	109905
-GCF_035609145.1	coqui	Eleutherodactylus coqui	GCF_035609145.1_aEleCoq1.hap1	57060
-GCA_947650265.1	corkwing wrasse	Symphodus melops	GCA_947650265.1_fSymMel2.1	171736
-GCF_037993035.1	crab-eating macaque	Macaca fascicularis	GCF_037993035.1_T2T-MFA8v1.0	9541
-GCA_964638095.1	crested bigscale	Poromitra crassiceps	GCA_964638095.1_fPorCra3.hap1.1	88708
-GCA_045345515.1	crested eagle	Morphnus guianensis	GCA_045345515.1_bMorGui1_haplotype_2	252789
-GCA_049082185.1	crested weedfish	Cristiceps australis	GCA_049082185.1_fCriAus1.1_haplotype_1	879810
-GCF_963584025.1	cuckoo wrasse	Labrus mixtus	GCF_963584025.1_fLabMix1.1	508554
-GCA_034619465.1	cuckoo-roller	Leptosomus discolor	GCA_034619465.1_bLepDis1.hap2	188344
-GCA_020745685.1	cunner	Tautogolabrus adspersus	GCA_020745685.1_fTauAds1.pri.cur	34787
-GCA_030463565.1	dalmatian pelican	Pelecanus crispus	GCA_030463565.1_bPelCri1.pri	36300
-GCF_021462225.1	darkedged splitfin	Girardinichthys multiradiatus	GCF_021462225.1_DD_fGirMul_XY1	208333
-GCA_026229955.1	deer mouse	Peromyscus maniculatus	GCA_026229955.1_mPerMan1.0.p	372063
-GCF_900700375.1	denticle herring	Denticeps clupeoides	GCF_900700375.1_fDenClu1.1	299321
-GCF_027887155.1	diamondback terrapin	Malaclemys terrapin	GCF_027887155.1_rMalTer1.hap1	2991368
-GCA_964211835.1	domestic goose	Anser anser	GCA_964211835.1_bAnsAns1.hap1.1	8843
-GCA_040805955.1	domestic sheep	Ovis aries	GCA_040805955.1_T2T-sheep1.0	9940
-GCF_014839835.1	downy woodpecker	Dryobates pubescens	GCF_014839835.1_bDryPub1.pri	118200
-GCA_030035585.1	dugong	Dugong dugon	GCA_030035585.1_mDugDug1.hap1	29137
-GCF_029582105.1	eastern black-eared wheatear	Oenanthe melanoleuca	GCF_029582105.1_OMel1.0	2939378
-GCA_041902795.1	electric eel	Electrophorus electricus	GCA_041902795.1_ASM4190279v1	8005
-GCA_047922985.1	elegant crested tinamou	Eudromia elegans	GCA_047922985.1_bEudEle1_v1.hap1	8805
-GCF_036370855.1	emu	Dromaius novaehollandiae	GCF_036370855.1_bDroNov1.hap1	8790
-GCF_020745735.1	epaulette shark	Hemiscyllium ocellatum	GCF_020745735.1_sHemOce1.pat.X.cur.	170820
 GCA_048126745.1	fallow deer	Dama dama	GCA_048126745.1_DamDam1_v1.mat	30532
 GCF_039906515.1	false killer whale	Pseudorca crassidens	GCF_039906515.1_mPseCra1.hap1	82174
 GCA_048593235.1	fat-tailed dunnart	Sminthopsis crassicaudata	GCA_048593235.1_ASM4859323v1	9301
+GCA_964270895.1	Filfola wall lizard	Podarcis filfolensis	GCA_964270895.1_rPodFil1.hap1.1	65481
 GCA_965194825.1	finback whale	Balaenoptera physalus	GCA_965194825.1_mBalPhy2.hap1.1	9770
 GCA_965226115.1	flavescent peacock cichlid	Aulonocara stuartgranti	GCA_965226115.1_fAulStu2.1	286572
+GCA_038048845.1	Fleay's barred frog	Mixophyes fleayi	GCA_038048845.1_aMixFle1.hap1	3061075
 GCF_007364275.1	flier cichlid	Archocentrus centrarchus	GCF_007364275.1_fArcCen1	63155
+GCA_015852565.1	Florida amphioxus	Branchiostoma floridae	GCA_015852565.1_bf_hap-2	2700039
+GCF_030035675.1	Florida worm lizard	Rhineura floridana	GCF_030035675.1_rRhiFlo1.hap2	261503
+GCF_902459505.1	Gaboon caecilian	Geotrypetes seraphini	GCF_902459505.1_aGeoSer1.1	260995
 GCA_014839755.1	garden warbler	Sylvia borin	GCA_014839755.1_bSylBor1.pri	73324
+GCA_965115925.1	Geoffroy's bat	Myotis emarginatus	GCA_965115925.1_mMyoEma1.hap1.1	109480
+GCF_011100685.1	German shepherd dog	Canis lupus familiaris	GCF_011100685.1_UU_Cfam_GSD_1.0	9615
 GCA_041903045.1	giant grouper	Epinephelus lanceolatus	GCA_041903045.1_ASM4190304v1	310571
 GCF_900880675.1	gilthead seabream	Sparus aurata	GCF_900880675.1_fSpaAur1.1	8175
 GCA_041735815.1	goat	Capra hircus	GCA_041735815.1_T2T-goat2.0	9925
@@ -352,6 +248,7 @@ GCA_048565345.1	golden mantella	Mantella aurantiaca	GCA_048565345.1_aManAur1.hap
 GCA_045345405.1	golden parakeet	Guaruba guaruba	GCA_045345405.1_bGuaGua1_haplotype_1	51906
 GCF_903995435.1	golden spiny mouse	Acomys russatus	GCF_903995435.1_mAcoRus1.1	60746
 GCA_048772815.1	golden-mantled ground squirrel	Callospermophilus lateralis	GCA_048772815.1_mCalLat2.hap1	76772
+GCF_007399415.2	Goode's Thornscrub Tortoise	Gopherus evgoodei	GCF_007399415.2_rGopEvg1_v1.p	1825980
 GCF_029281585.2	gorilla	Gorilla gorilla	GCF_029281585.2_NHGRI_mGorGor1-v2.1_pri	9595
 GCF_027887165.1	gray short-tailed opossum	Monodelphis domestica	GCF_027887165.1_mMonDom1.pri	13616
 GCF_028021215.1	gray whale	Eschrichtius robustus	GCF_028021215.1_mEscRob2.pri	9764
@@ -363,19 +260,24 @@ GCA_951799395.1	greater argentine	Argentina silus	GCA_951799395.1_fArgSil1.1	446
 GCA_037893015.1	greater bilby	Macrotis lagotis	GCA_037893015.1_bilby.v1.9.chrom.fasta	92651
 GCF_004115265.2	greater horseshoe bat	Rhinolophus ferrumequinum	GCF_004115265.2_mRhiFer1_v1.p	59479
 GCF_014108235.1	greater mouse-eared bat	Myotis myotis	GCF_014108235.1_mMyoMyo1.p	51298
+GCA_043880545.1	Greater mouse-tailed bat	Rhinopoma microphyllum	GCA_043880545.1_ASM4388054v1	173903
 GCF_901709675.1	greater pipefish	Syngnathus acus	GCF_901709675.1_fSynAcu1.2	161584
 GCF_036850765.1	greater sac-winged bat	Saccopteryx bilineata	GCF_036850765.1_mSacBil1_pri_phased_curated	59482
 GCA_949357725.1	greater sand eel	Hyperoplus immaculatus	GCA_949357725.1_fHypImm3.1	1484357
 GCA_965140915.1	greater scaup	Aythya marila	GCA_965140915.1_bAytMar2.hap1.1	189534
 GCF_015237465.2	green sea turtle	Chelonia mydas	GCF_015237465.2_rCheMyd1.pri.v2	8469
+GCA_905319855.2	Greenland wolf	Canis lupus orion	GCA_905319855.2_mCanLor1.2	9612
 GCA_011004875.1	grey crowned-crane	Balearica regulorum gibbericeps	GCA_011004875.1_bBalReg1.pri	100784
 GCA_963514095.1	grey gurnard	Eutrigla gurnardus	GCA_963514095.1_fEutGur1.1	426098
 GCA_964656455.1	grey seal	Halichoerus grypus	GCA_964656455.1_mHalGry1.hap1.1	9711
 GCF_902686445.1	grey squirrel	Sciurus carolinensis 	GCF_902686445.1_mSciCar1.2	30640
 GCA_949357685.1	gudgeon	Gobio gobio	GCA_949357685.1_fGobGob1.1	27704
 GCF_015220075.1	gyrfalcon	Falco rusticolus	GCF_015220075.1_bFalRus1.pri	120794
+GCA_964339955.1	Hanaki's dwarf bat	Pipistrellus hanaki	GCA_964339955.1_mPipHan1.1	412090
 GCF_963924675.1	harbor porpoise	Phocoena phocoena	GCF_963924675.1_mPhoPho1.1	9742
 GCF_026419915.1	harpy eagle	Harpia harpyja	GCF_026419915.1_bHarHar1_primary_haplotype	202280
+GCF_020740725.1	Hawaiian crow	Corvus hawaiiensis	GCF_020740725.1_bCorHaw1.pri.cur	134902
+GCA_965152235.1	Hawksbill sea turtle	Eretmochelys imbricata	GCA_965152235.1_rEreImb1.hap1	27787
 GCA_964417175.1	herring gull	Larus argentatus	GCA_964417175.1_bLarArg3.hap1.1	35669
 GCA_030867145.1	hoatzin	Opisthocomus hoazin	GCA_030867145.1_bOpiHoa1.hap1	30419
 GCF_015220745.1	honeycomb rockfish	Sebastes umbrosus	GCF_015220745.1_fSebUmb1.pri	72105
@@ -385,18 +287,37 @@ GCF_027477595.1	house finch	Haemorhous mexicanus	GCF_027477595.1_bHaeMex1.pri	30
 GCA_949316315.1	house mouse	Mus musculus	GCA_949316315.1_mMusMuc1.1	10090
 GCF_036417665.1	house sparrow	Passer domesticus	GCF_036417665.1_bPasDom1.hap1	48849
 GCF_009914755.1	human	Homo sapiens	GCF_009914755.1_T2T-CHM13v2.0	9606
+GCA_027474245.1	Humboldt penguin	Spheniscus humboldti	GCA_027474245.1_bSphHub1.pri	9240
 GCA_041834305.1	humpback whale	Megaptera novaeangliae	GCA_041834305.1_ASM4183430v1	9773
+GCA_947247035.1	Hungarian meadow viper	Vipera ursinii	GCA_947247035.1_rVipUrs1.1	103942
+GCA_036172795.1	Iberian parsley frog	Pelodytes ibericus	GCA_036172795.1_aPelIbe1.pri	233781
+GCA_026652325.1	Iberian ribbed newt	Pleurodeles waltl	GCA_026652325.1_ASM2665232v1	8319
+GCA_964106645.2	Ibiza wall lizard	Podarcis pityusensis	GCA_964106645.2_rPodPit1.hap1.2	74359
+GCA_030020295.1	Indian gharial	Gavialis gangeticus	GCA_030020295.1_rGavGan2.hap2	94835
+GCF_900634625.1	Indian glassy fish	Parambassis ranga	GCF_900634625.1_fParRan2.1	210632
+GCA_045781085.1	Indian roofed turtle	Pangshura tecta	GCA_045781085.1_rPanTec1.hap2	260642
+GCF_013368585.1	Indo-pacific tarpon	Megalops cyprinoides	GCF_013368585.1_fMegCyp1.pri	118141
 GCA_038363145.1	intermediate fruit-eating bat	Artibeus intermedius	GCA_038363145.1_mArtInt1.hap1	51014
 GCA_043728065.1	intermediate horseshoe bat	Rhinolophus affinis	GCA_043728065.1_ASM4372806v1	59477
 GCA_031876335.1	intermediate roundleaf bat	Hipposideros larvatus	GCA_031876335.1_mHipLar1.pri	175524
+GCA_964188175.1	Italian wall lizard	Podarcis siculus	GCA_964188175.1_rPodSic1.hap1.1	65484
 GCA_046562885.1	jaguar	Panthera onca	GCA_046562885.1_mPanOnc1_haplotype_1	9690
+GCF_901000725.2	Japanese puffer (torafugu)	Takifugu rubripes	GCF_901000725.2_fTakRub1.2	31033
+GCF_044704955.1	Japanese sawshark	Pristiophorus japonicus	GCF_044704955.1_sPriJap1.hap1	55135
 GCF_902148845.1	jewelled blenny	Salarias fasciatus	GCF_902148845.1_fSalaFa1.1	181472
+GCA_960531495.1	John dory	Zeus faber	GCA_960531495.1_fZeuFab8.1	64108
+GCA_027574665.1	Kagu	Rhynochetos jubatus	GCA_027574665.1_bRhyJub1.pri	54386
 GCF_004027225.2	kakapo	Strigops habroptilus	GCF_004027225.2_bStrHab1.2.pri	2489341
+GCA_965140285.1	Kemp's ridley sea turtle	Lepidochelys kempii	GCA_965140285.1_rLepKem1.hap1	8472
 GCF_937001465.1	killer whale	Orcinus orca	GCF_937001465.1_mOrcOrc1.1	9733
 GCA_039878825.1	king quail	Coturnix chinensis	GCA_039878825.1_bCotChi1.hap2	46218
 GCA_037962945.1	king vulture	Sarcoramphus papa	GCA_037962945.1_bSarPap1.hap1	43583
 GCA_003287225.2	koala	Phascolarctos cinereus	GCA_003287225.2_phaCin_HiC	38626
+GCF_009829125.3	Korean giant-fin mudskipper	Periophthalmus magnuspinnatus	GCF_009829125.3_fPerMag1.2.pri	409849
+GCF_014108245.1	Kuhl's pipistrelle	Pipistrellus kuhlii	GCF_014108245.1_mPipKuh1.p	59472
 GCF_009829145.1	lanced-tailed manakin	Chiroxiphia lanceolata	GCF_009829145.1_bChiLan1.pri	296741
+GCF_023638135.1	Lanner falcon	Falco biarmicus	GCF_023638135.1_bFalBia1.pri	345155
+GCA_963921795.1	Lantern fish	Nannobrachium achirus	GCA_963921795.1_fNanAch1.1	473322
 GCA_026018925.1	large treeshrew	Tupaia tana	GCA_026018925.1_mTupTan1	70687
 GCA_949987555.1	large-eye snaggletooth	Borostomias antarcticus	GCA_949987555.1_fBorAnt1.1	473354
 GCA_019677235.1	large-mouth bass	Micropterus salmoides	GCA_019677235.1_HNU_Msal_1.0	27706
@@ -408,7 +329,9 @@ GCA_964266715.1	lemon sole	Microstomus kitt	GCA_964266715.1_fMicKit1.1	106175
 GCF_028583425.1	leopard gecko	Eublepharis macularius	GCF_028583425.1_MPM_Emac_v1.0	481883
 GCA_949987685.1	lesseer sand eel	Ammodytes marinus	GCA_949987685.1_fAmmMar1.1	146480
 GCA_963932225.1	lesser black-backed gull	Larus fuscus	GCA_963932225.1_bLarFus1.1	8915
+GCF_020740685.1	Lesser Egyptian jerboa	Jaculus jaculus	GCF_020740685.1_mJacJac1.mat.Y.cur	51337
 GCF_036971445.1	lesser electric ray	Narcine bancroftii	GCF_036971445.1_sNarBan1.hap1	1343680
+GCA_043880595.1	Lesser false vampire bat	Megaderma spasma	GCA_043880595.1_ASM4388059v1	9414
 GCA_964194185.1	lesser horseshoe bat	Rhinolophus hipposideros	GCA_964194185.1_mRhiHip2.hap1.1	77218
 GCF_017639655.2	lesser kestrel	Falco naumanni	GCF_017639655.2_bFalNau1.pat	148594
 GCA_964264875.2	lesser noctule	Nyctalus leisleri	GCA_964264875.2_mNycLei1.hap1.2	59465
@@ -417,6 +340,7 @@ GCF_036850995.1	lesser sac-winged bat	Saccopteryx leptura	GCF_036850995.1_mSacLe
 GCA_963691815.1	lesser weever	Echiichthys vipera	GCA_963691815.1_fEchVip8.1	94984
 GCA_947623445.1	light-bulb sea squirt	Clavelina lepadiformis	GCA_947623445.1_kaClaLepa1.1	159417
 GCA_949748355.1	limp eelpout	Melanostigma gelatinosum	GCA_949748355.1_fMelGel1.1	1091424
+GCF_015220235.1	Linnaeus's two-toed sloth	Choloepus didactylus	GCF_015220235.1_mChoDid1.pri	27675
 GCA_965140245.1	little owl	Athene noctua	GCA_965140245.1_bAthNoc1.hap1.1	126797
 GCF_900963305.1	live sharksucker	Echeneis naucrates	GCF_900963305.1_fEcheNa1.1	173247
 GCA_965140235.1	loggerhead sea turtle	Caretta caretta	GCA_965140235.1_rCarCar1.hap1	8467
@@ -425,8 +349,18 @@ GCA_910589615.1	long-spined sea scorpion	Taurulus bubalis	GCA_910589615.1_fTauBu
 GCA_963989345.1	long-tailed duck	Clangula hyemalis	GCA_963989345.1_bClaHye2.1	197941
 GCA_023637945.2	long-tailed hermit	Phaethornis superciliosus	GCA_023637945.2_bPhaSup1.pri	46513
 GCF_009769545.1	lumpfish	Cyclopterus lumpus	GCF_009769545.1_fCycLum1.pri	8103
+GCA_036417535.1	MacQueen's bustard	Chlamydotis macqueenii	GCA_036417535.1_bChlMac1.mat	187382
+GCA_017639555.1	Maguari stork	Ciconia maguari	GCA_017639555.1_bCicMag1.pri	52777
+GCA_031878705.1	Malayan tapir	Tapirus indicus	GCA_031878705.1_mTapInd1.hap2	9802
 GCA_964188345.1	mallard	Anas platyrhynchos	GCA_964188345.1_bAnaPla2.hap1.1	8839
 GCA_949606895.1	marbled rockcod	Notothenia rossii 	GCA_949606895.1_fNotRos5.1	101497
+GCA_963210335.1	Mauritius kestrel	Falco punctatus	GCA_963210335.1_bFalPun1.1	148596
+GCA_963264785.1	Mauritius parakeet	Psittacula echo	GCA_963264785.1_bPsiEch3.1	232653
+GCA_039655065.1	Merriam's long-tongued bat	Glossophaga mutica	GCA_039655065.1_mGloMut1.hap1	2994998
+GCA_037306005.1	Mexican burrowing toad	Rhinophrynus dorsalis	GCA_037306005.1_aRhiDor1.hap1	43566
+GCF_025201925.1	Mexican gopher tortoise	Gopherus flavomarginatus	GCF_025201925.1_rGopFla2.mat.asm	286002
+GCF_048164855.1	Mexican gray wolf	Canis lupus baileyi	GCF_048164855.1_mCanLup2.hap1	143281
+GCF_023375975.1	Mexican tetra	Astyanax mexicanus	GCF_023375975.1_AstMex3_surface	7994
 GCF_902362185.1	milkfish	Chanos chanos	GCF_902362185.1_fChaCha1.1	29144
 GCF_032444005.1	mimic poison frog	Ranitomeya imitator	GCF_032444005.1_aRanImi1.pri	111125
 GCA_963454915.1	minispotted lanternfish	Gymnoscopelus microlampas	GCA_963454915.1_fGymMic1.1	1090481
@@ -434,18 +368,43 @@ GCF_019393635.1	monito del montes	Dromiciops gliroides	GCF_019393635.1_mDroGli1.
 GCA_039906565.1	mountain owlet-nightjar	Aegotheles albertisi	GCA_039906565.1_bAegAlb1.hap1	48277
 GCF_009769625.2	mute swan	Cygnus olor	GCF_009769625.2_bCygOlo1.pri.v2	8869
 GCA_005190385.3	narwhal	Monodon monocero	GCA_005190385.3_NGI_Narwhal_2	40151
+GCA_964656225.1	Nathusius's pipistrelle	Pipistrellus nathusii	GCA_964656225.1_mPipNat1.hap1.1	59473
+GCA_964212035.2	Natterer's bat	Myotis nattereri	GCA_964212035.2_mMyoNat1.hap1.2	109481
 GCA_014839995.1	needlefish	Xenentodon cancila	GCA_014839995.1_fXenCan1.pri	129108
+GCF_027579445.1	Nelson's sparrow	Ammospiza nelsoni	GCF_027579445.1_bAmmNel1.pri	2857394
+GCF_009650955.1	New Caledonian crow	Corvus moneduloides	GCF_009650955.1_bCorMon1.pri	1196302
+GCF_009762535.1	New Zealand spotty wrasse	Notolabrus celidotus	GCF_009762535.1_fNotCel1.pri	1203425
+GCF_036013445.1	Nicobar pigeon	Caloenas nicobarica	GCF_036013445.1_bCalNic1.hap1	187106
+GCA_011762505.3	Nile rat	Arvicanthis niloticus	GCA_011762505.3_mArvNil1.pat.X	61156
 GCF_030445035.2	nine-banded armadillo	Dasypus novemcinctus	GCF_030445035.2_mDasNov1.1.hap2	9361
 GCF_949316345.1	ninespine stickleback	Pungitius pungitius	GCF_949316345.1_fPunPun2.1	134920
+GCA_024256435.1	North African catfish	Clarias gariepinus	GCA_024256435.1_CGAR_Hap1	13013
+GCA_047511655.1	North American beaver	Castor canadensis	GCA_047511655.1_mCasCan1.hap1	51338
+GCA_028451465.1	North American porcupine	Erethizon dorsatum	GCA_028451465.1_mEreDor1.pri	34844
+GCA_949752795.1	North Atlantic bottlenose whale	Hyperoodon ampullatus	GCA_949752795.1_mHypAmp2.1	48744
+GCF_028564815.1	North Atlantic right whale	Eubalaena glacialis	GCF_028564815.1_mEubGla1.1.hap2._XY	27606
+GCF_036417845.1	North Island brown kiwi	Apteryx mantelli	GCF_036417845.1_bAptMan1.hap1	2696672
 GCA_951640355.1	northern bat	Eptesicus nilssonii 	GCA_951640355.1_mEptNil1.1	3371016
 GCF_963924715.1	northern bluefin tuna	Thunnus thynnus	GCF_963924715.1_fThuThy2.1	8237
+GCA_046255685.1	Northern cavefish	Amblyopsis spelaea	GCA_046255685.1_fAmbSpe1.hap1	1195602
+GCA_031468815.1	Northern gannet	Morus bassanus	GCA_031468815.1_bMorBas2.hap2	37578
+GCF_929443795.1	Northern goshawk	Accipiter gentilis	GCF_929443795.1_bAccGen1.1	8957
+GCA_965231255.1	Northern Lapwing	Vanellus vanellus	GCA_965231255.1_bVanVan1.hap1.1	100859
+GCF_011004845.1	Northern pike	Esox lucius	GCF_011004845.1_fEsoLuc1.pri	8010
 GCF_963932015.1	northern pintail	Anas acuta	GCF_963932015.1_bAnaAcu1.1	28680
+GCA_043748575.1	Northern woolly horseshoe bat	Rhinolophus perniger lanosus	GCA_043748575.1_ASM4374857v1	3030661
+GCF_015227675.2	Norway rat	Rattus norvegicus	GCF_015227675.2_mRatBN7.2	10116
 GCA_044231665.1	ocellated dragonet	Neosynchiropus ocellatus	GCA_044231665.1_SynOce1_v1.hap1	390378
 GCF_043641665.1	old wife	Enoplosus armatus	GCF_043641665.1_fEnoArm2.hap1	215367
 GCA_030867105.1	olive python	Liasis olivaceus	GCA_030867105.1_rLiaOli1.hap1	283338
+GCA_963082875.1	Orange-tipped sea squirt	Corella eumyota	GCA_963082875.1_kaCorEumy4.1	431183
 GCF_902148855.1	orbiculate cardinalfish	Sphaeramia orbicularis	GCF_902148855.1_fSphaOr1.1	375764
+GCA_048544225.1	Osbeck's grenadier anchovy	Coilia mystus	GCA_048544225.1_fCoiMys1.hap2	286537
+GCF_027409825.1	Pacific chub mackerel	Scomber japonicus	GCF_027409825.1_fScoJap1.pri	13676
+GCA_965140295.1	Pacific ridley	Lepidochelys olivacea	GCA_965140295.1_rLepOli2.hap1	27788
 GCA_027410445.1	painted frog	Discoglossus pictus	GCA_027410445.1_aDisPic1.pri	8351
 GCF_004126475.2	pale spear-nosed bat	Phyllostomus discolor	GCF_004126475.2_mPhyDis1.pri.v3	89673
+GCF_014108415.1	Pallas's mastiff bat	Molossus molossus	GCF_014108415.1_mMolMol1.p	27622
 GCA_027563665.1	pallid bat	Antrozous pallidus	GCA_027563665.1_DD_ASM_mAP_20210503	9440
 GCA_964261635.1	palmate newt	Lissotriton helveticus	GCA_964261635.1_aLisHel1.1	256425
 GCA_030440675.1	panther chameleon	Furcifer pardalis	GCA_030440675.1_ASM3044067v1	187939
@@ -456,6 +415,8 @@ GCA_027942865.1	pejerrey	Odontesthes bonariensis	GCA_027942865.1_fOdoBon6.hap1	2
 GCA_017639675.1	peladilla	Aplochiton taeniatus	GCA_017639675.1_fAplTae1.pri	946358
 GCA_963989245.1	pencil smelt	Nansenia antarctica	GCA_963989245.1_fNanAnt1.1	443705
 GCF_023634155.1	peregrine falcon	Falco peregrinus	GCF_023634155.1_bFalPer1.pri	8954
+GCA_038501925.1	Peter's clawed frog	Xenopus petersii	GCA_038501925.1_aXenPet1.paternal.cur	288555
+GCF_027409185.1	Philippine flying lemur	Cynocephalus volans	GCF_027409185.1_mCynVol1.pri	110931
 GCA_044231675.1	picturesque dragonet	Synchiropus picturatus	GCA_044231675.1_ASM4423167v1	586865
 GCA_048338725.1	pig	Sus scrofa	GCA_048338725.1_T2T_pig1.0	9823
 GCA_033958435.1	pig-nosed turtle	Carettochelys insculpta	GCA_033958435.1_ASM3395843v1	44489
@@ -485,12 +446,18 @@ GCA_009819825.1	red-legged seriema	Cariama cristata	GCA_009819825.1_bCarCri1.pri
 GCF_030936135.1	red-throated Loon	Gavia stellata	GCF_030936135.1_bGavSte3.hap2	37040
 GCF_020745825.1	red-winged blackbird	Agelaius phoeniceus	GCF_020745825.1_Agelaius_phoeniceus_1.1	39638
 GCF_900747795.2	reedfish	Erpetoichthys calabaricus	GCF_900747795.2_fErpCal1.3	27687
+GCF_963930625.1	Reeves' muntjac	Muntiacus reevesi	GCF_963930625.1_mMunRee1.1	9886
+GCA_048301585.1	Rhinogobio nasutus	Rhinogobio nasutus	GCA_048301585.1_ASM4830158v1	2590489
+GCF_028023285.1	Rice's whale	Balaenoptera ricei	GCF_028023285.1_mBalRic1.hap2	2746895
 GCA_016904835.1	rifleman	Acanthisitta chloris	GCA_016904835.1_bAcaChl1.pri	57068
+GCF_040937935.1	Riggenbach's reed frog	Hyperolius riggenbachi	GCF_040937935.1_aHypRig1.pri	752182
 GCF_020740605.2	ring-tailed lemur	Lemur catta	GCF_020740605.2_mLemCat1.pri	9447
+GCA_964374135.1	Risso's dolphin	Grampus griseus	GCA_964374135.1_mGraGri1.hap1.1	83653
 GCA_951802725.1	roach minnow	Rutilus rutilus	GCA_951802725.1_fRutRut2.1	48668
 GCF_036013475.1	rock dove	Columba livia	GCF_036013475.1_bColLiv1.pat.W.v2	8932
 GCA_910591455.2	rock gunnel	Pholis gunnellus	GCA_910591455.2_fPhoGun1.2	56726
 GCF_023343835.1	rock ptarmigan	Lagopus muta	GCF_023343835.1_bLagMut1_primary	64668
+GCF_030014385.1	Rosablanca cavefish	Trichomycterus rosablanca	GCF_030014385.1_fTriRos1.hap1	2290929
 GCF_042242105.1	rough bullseye	Pempheris klunzingeri	GCF_042242105.1_fPemKlu1.hap1	3127111
 GCF_031021105.1	royal ground snake	Erythrolamprus reginae	GCF_031021105.1_rEryReg1.hap1	121349
 GCA_031893055.1	rufous frog	Leptodactylus fuscus	GCA_031893055.1_aLepFus1.hap2	238119
@@ -500,6 +467,9 @@ GCA_049190665.1	salamanderfish	Lepidogalaxias salamandroides	GCA_049190665.1_fLe
 GCF_027887145.1	saltmarsh sparrow	Ammodramus caudacutus	GCF_027887145.1_bAmmCau1.pri	2857398
 GCF_009819535.1	sand lizard	Lacerta agilis	GCF_009819535.1_rLacAgi1.pri	80427
 GCF_963854185.1	sardine	Sardina pilchardus	GCF_963854185.1_fSarPil1.1	27697
+GCF_029499605.1	Sardinian treefrog	Hyla sarda	GCF_029499605.1_aHylSar1.hap1	327740
+GCA_031885435.1	Savannah sparrow	Passerculus sandwichensis	GCA_031885435.1_bPasSan2.pri	161624
+GCA_964146895.2	Schreibers' long-fingered bat	Miniopterus schreibersii	GCA_964146895.2_mMinSch1.hap1.2	9433
 GCF_010993605.1	sea lamprey	Petromyzon marinus	GCF_010993605.1_kPetMar1.pri	7757
 GCA_048126635.1	sea stickleback	Spinachia spinachia	GCA_048126635.1_SpiSpi1_v1.hap1	206126
 GCA_036010785.1	seaside sparrow	Ammospiza maritima	GCA_036010785.1_bAmmMar1.pri	3111550
@@ -509,15 +479,26 @@ GCF_035084215.1	sharpnose sevengill shark	Heptranchias perlo	GCF_035084215.1_sHe
 GCA_045363895.1	sharptooth jobfish	Pristipomoides typus	GCA_045363895.1_fPriTyp1.hap1	264210
 GCF_015852505.1	short-beaked echidna	Tachyglossus aculeatus	GCF_015852505.1_mTacAcu1.pri	9261
 GCF_028878055.3	siamang gibbon	Symphalangus syndactylus	GCF_028878055.3_NHGRI_mSymSyn1-v2.1_pri	9590
+GCF_900634795.4	Siamese fighting fish	Betta splendens	GCF_900634795.4_fBetSpl5.4	158456
 GCA_048569125.1	silver spinyfin	Diretmus argenteus	GCA_048569125.1_fDirArg3.hap1	88682
 GCA_965231275.1	silver-eye	Zosterops lateralis	GCA_965231275.1_bZosLat1.hap1.1	43581
+GCA_964106915.2	Skyros wall lizard	Podarcis gaigeae	GCA_964106915.2_rPodGai1.hap1.2	90521
 GCF_902713615.1	small-spotted catshark	Scyliorhinus canicula	GCF_902713615.1_sScyCan1.1	7830
 GCF_029633865.1	smalleye Pacific opah	Lampris incognitus	GCF_029633865.1_fLamInc1.hap2	2546036
 GCF_009764475.1	smalltooth sawfish	Pristis pectinata	GCF_009764475.1_sPriPec2.1.pri	685728
+GCA_046126795.1	Smith's blind skink	Dibamus smithi	GCA_046126795.1_rDibSmi1.hap1	3379902
 GCA_024294585.1	snub-nosed viber	Vipera latastei	GCA_024294585.1_rVipLat1.pri	246179
 GCF_035770615.1	song sparrow	Melospiza melodia	GCF_035770615.1_bMelMel2.pri	1914991
 GCA_949987585.1	soprano pipistrelle	Pipistrellus pygmaeus	GCA_949987585.1_mPipPyg2.1	246814
+GCF_023053635.1	Southern alligator lizard	Elgaria multicarinata webbii	GCF_023053635.1_rElgMul1.1.pri	159646
+GCF_020826845.1	Southern black rhinoceros	Diceros bicornis minor	GCF_020826845.1_mDicBic1.mat.cur	77932
 GCF_910596095.1	southern bluefin tuna	Thunnus maccoyii	GCF_910596095.1_fThuMac1.1	8240
+GCA_029215775.1	Southern California legless lizard	Anniella stebbinsi	GCA_029215775.1_rAnnSte1.0.hap1	2202111
+GCF_028390025.1	Southern corroboree frog	Pseudophryne corroboree	GCF_028390025.1_aPseCor3.hap2	495146
+GCF_903995425.1	Southern grasshopper mouse	Onychomys torridus	GCF_903995425.1_mOncTor1.1	38674
+GCA_048126345.1	Southern marsupial mole	Notoryctes typhlops	GCA_048126345.1_UniMelb_NotTyph_v1.0	37699
+GCA_023851605.1	Southern tamandua 	Tamandua tetradactyla	GCA_023851605.1_mTamTet1.pri	48850
+GCA_964165515.1	Sowerby's beaked whale	Mesoplodon bidens	GCA_964165515.1_mMesBid2.hap1.1	48745
 GCA_045362495.1	spangled emperor	Lethrinus nebulosus	GCA_045362495.1_fLetNeb1.hap1	182658
 GCF_028858725.1	speckled mousebird	Colius striatus	GCF_028858725.1_bColStr4.1.hap1	57412
 GCF_040954835.1	spotted gar	Lepisosteus oculatus	GCF_040954835.1_fLepOcu1.hap2	7918
@@ -525,20 +506,27 @@ GCA_035084275.1	spotted ratfish	Hydrolagus colliei	GCA_035084275.1_sHydCol1.hap2
 GCF_020382885.2	spotted scat	Scatophagus argus	GCF_020382885.2_fScaArg1.pri	75038
 GCA_964213995.1	starry smooth-hound shark	Mustelus asterias	GCA_964213995.1_sMusAst1.hap1.1	112232
 GCF_902713425.1	sterlet	Acipenser ruthenus	GCF_902713425.1_fAciRut3.2_maternal_haplotype	7906
+GCA_043727835.1	Stoliczka's trident bat	Aselliscus stoliczkanus	GCA_043727835.1_ASM4372783v1	188568
 GCA_947034865.1	stone loach	Barbatula barbatula	GCA_947034865.1_fBarBar1.1	135647
 GCF_009829155.1	stout	Mustela erminea	GCF_009829155.1_mMusErm1.Pri	36723
 GCA_030412105.1	stout iguana	Cyclura pinguis	GCA_030412105.1_rCycPin1.hap1	118683
 GCF_027358585.1	striped catfish	Pangasianodon hypophthalmus	GCF_027358585.1_fPanHyp1.pri	310915
 GCA_951394435.1	striped dolphin	Stenella coeruleoalba	GCA_951394435.1_mSteCoe1.1	9737
+GCF_028885655.2	Sumatran orangutan	Pongo abelii 	GCF_028885655.2_NHGRI_mPonAbe1-v2.0_pri	9601
 GCF_027406575.1	sunda slow loris	Nycticebus coucang	GCF_027406575.1_mNycCou1.pri	9470
 GCA_020746105.1	surucua trogon	Trogon surrucura	GCA_020746105.1_bTroSur1.pri.cur	297711
+GCA_033349115.1	Suwannee snapping turtle	Macrochelys suwanniensis	GCA_033349115.1_rMacSuw1.hap2	3026461
+GCF_009819885.2	Swainson's thrush	Catharus ustulatus	GCF_009819885.2_bCatUst1.pri.v2	91951
 GCF_028018845.1	swamp sparrow	Melospiza georgiana	GCF_028018845.1_bMelGeo1.pri	44398
 GCF_040182565.1	swan goose	Anser cygnoides	GCF_040182565.1_Taihu_goose_T2T_genome	8845
 GCF_037157495.1	swift parrot	Lathamus discolor	GCF_037157495.1_bLatDis1.hap1	678569
 GCA_020800305.1	takahe	Porphyrio hochstetteri	GCA_020800305.1_bPorHoc1.mat.Z.cur	439704
+GCF_028372415.1	Tammar wallaby	Macropus eugenii	GCF_028372415.1_mMacEug1.pri_v2	9315
+GCA_048593225.1	Tasmanian devil	Sarcophilus harrisii	GCA_048593225.1_ASM4859322v1	9305
 GCA_028020825.1	tawny frogmouth	Podargus strigoides	GCA_028020825.1_bPodStr1.pri	8905
 GCA_031877795.1	tawny owl	Strix aluco	GCA_031877795.1_bStrAlu1.hap1	111821
 GCA_933228915.1	telmatherina bonti	Telmatherina bonti	GCA_933228915.1_fTelBon1.1	446457
+GCA_965202585.1	Thalia democratica	Thalia democratica	GCA_965202585.1_ktThaDemo2.hap1.1	34761
 GCA_963457635.1	thickback sole	Microchirus variegatus	GCA_963457635.1_fMicVar1.1	90074
 GCA_963514085.1	thicklip grey mullet	Chelon labrosus	GCA_963514085.1_fCheLab1.1	48171
 GCF_010909765.2	thorny skate	Amblyraja radiata	GCF_010909765.2_sAmbRad1.1.pri	386614
@@ -546,18 +534,28 @@ GCA_964276395.1	three-spined stickleback	Gasterosteus aculeatus	GCA_964276395.1_
 GCA_048593285.1	tiger quoll	Dasyurus maculatus	GCA_048593285.1_ASM4859328v1	9281
 GCA_901765095.2	tiny cayenne caecilian	Microcaecilia unicolor	GCA_901765095.2_aMicUni1.2	1415580
 GCF_036169615.1	tourmaline sunangel	Heliangelus exortis	GCF_036169615.1_bHelExo1.hap1	472823
+GCA_026230055.1	Townsend's big-eared bat	Corynorhinus townsendii	GCA_026230055.1_mCorTow1.0.hap1	124745
 GCF_029633855.1	trahira	Hoplias malabaricus	GCF_029633855.1_fHopMal1.hap1	27720
 GCA_043728145.1	trefoil horseshoe bat	Rhinolophus trifoliatus	GCA_043728145.1_ASM4372814v1	430492
+GCA_963675345.1	Trididemnum clinides	Trididemnum clinides	GCA_963675345.1_kaTriClin1.1	641091
+GCA_964341445.1	True's beaked whale	Mesoplodon mirus	GCA_964341445.1_mMesMir1.hap1.1	52113
 GCF_009819795.1	tufted duck	Aythya fuligula	GCF_009819795.1_bAytFul2.pri	219594
 GCA_965151615.1	tundra swan	Cygnus columbianus	GCA_965151615.1_bCygCol1.1	110926
 GCF_040894005.1	tungara frog	Engystomops pustulosus	GCF_040894005.1_aEngPut4.maternal	76066
 GCA_963854745.1	turbot	Scophthalmus maximus	GCA_963854745.1_fScoMax1.1	52904
 GCF_901001135.1	two-lined caecilian	Rhinatrema bivittatum	GCF_901001135.1_aRhiBiv1.1	194408
+GCA_965153285.1	Tyrrhenian wall lizard	Podarcis tiliguerta	GCA_965153285.1_rPodTil1.hap1.1	65485
 GCF_008692025.1	vaquita	Phocoena sinus	GCF_008692025.1_mPhoSin1.pri	42100
 GCF_026979565.1	village indigobird	Vidua chalybeata	GCF_026979565.1_bVidCha1_merged_haplotype	81927
 GCF_035149785.1	viper boa	Candoia aspera	GCF_035149785.1_rCanAsp1.hap2	51853
 GCA_013358685.1	warty frogfish	Antennarius maculatus	GCA_013358685.1_fAntMac1.pri	882753
 GCA_964204655.1	warty newt	Triturus cristatus	GCA_964204655.1_aTriCri1.1	8323
+GCA_040939525.1	West African lungfish	Protopterus annectens	GCA_040939525.1_ASM4093952v1	7888
+GCA_951394365.1	Western capercaillie	Tetrao urogallus	GCA_951394365.1_bTetUro1.1	100830
+GCA_965178545.1	Western jackdaw	Coloeus monedula	GCA_965178545.1_bColMon1.hap1.1	30423
+GCF_009769535.1	Western terrestrial garter snake	Thamnophis elegans	GCF_009769535.1_rThaEle1.pri	35005
+GCA_023333525.2	Western whiptail stejnegeri	Aspidoscelis tigris stejnegeri	GCA_023333525.2_rAspTig1.1.pri	2917703
+GCA_048301465.1	West Atlantic trumpetfish	Aulostomus maculatus	GCA_048301465.1_ASM4830146v1	150449
 GCA_964094495.2	whiskered bat	Myotis mystacinus	GCA_964094495.2_mMyoMys1.hap1.1	109479
 GCA_020745705.1	whiskered treeswift	Hemiprocne comata	GCA_020745705.1_bHemCom1.pri.cur	243314
 GCF_016700215.2	white leghorn layer chicken	Gallus gallus	GCF_016700215.2_bGalGal1.pat.whiteleghornlayer.GRCg7w	9031
@@ -567,6 +565,7 @@ GCF_947461875.1	white-tailed eagle	Haliaeetus albicilla	GCF_947461875.1_bHalAlb1
 GCF_963662255.1	white-throated dipper	Cinclus cinclus	GCF_963662255.1_bCinCin1.1	127875
 GCA_047830755.1	white-throated sparrow	Zonotrichia albicollis	GCA_047830755.1_bZonAlb1.hap1	44394
 GCF_028858705.1	whooping crane	Grus americana	GCF_028858705.1_bGruAme1.mat	9117
+GCA_045364795.1	Xingu scale-backed antbird	Willisornis vidua	GCA_045364795.1_bWilVid1_haplotype_1	1566151
 GCA_048129055.1	yellow and blueback fusilier	Caesio teres	GCA_048129055.1_fCaeTer1.1_haplotype_1	1311420
 GCF_047511675.1	yellow bellied marmot	Marmota flaviventris	GCF_047511675.1_mMarFla1.hap1	93162
 GCA_964205295.1	yellow-bellied toad	Bombina variegata	GCA_964205295.1_aBomVar4.paternal.1	8348
@@ -576,6 +575,7 @@ GCA_028571685.1	yellow-spotted rock hyrax	Heterohyrax brucei	GCA_028571685.1_mHe
 GCA_009769525.1	yellow-throated sandgrouse	Pterocles gutturalis	GCA_009769525.1_bPteGut1.pri	240206
 GCF_904848185.1	yellowfin sea bream	Acanthopagrus latus	GCF_904848185.1_fAcaLat1.1	8177
 GCF_914725855.1	yellowfin tuna	Thunnus albacares	GCF_914725855.1_fThuAlb1.1	8236
+GCA_043880425.1	Yong hoi sen's woolly horseshoe bat	Rhinolophus yonghoiseni	GCA_043880425.1_ASM4388042v1	2952509
 GCA_048771995.1	zebra finch	Taeniopygia guttata	GCA_048771995.1_bTaeGut7.mat	59729
 GCF_030684315.1	zebra shark	Stegostoma tigrinum	GCF_030684315.1_sSteTig4.hap1	3053191
 GCA_944039275.1	zebrafish	Danio rerio	GCA_944039275.1_fDanRer4.1	7955
