@@ -3,8 +3,10 @@ repository for materials to do with the VGP phase 1 data freeze, analyses,
 and publication
 
 ### status:
-- 2025-04-11 - Checking, verifying the assembly listings
+- 2025-04-29 - assembly list verified, correctly repeat masked sequences
+             - now available at: [UCSC hgdownload](https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/)
 - 2025-04-21 - finishing the complete RepeatMasking of all the assemblies
+- 2025-04-11 - Checking, verifying the assembly listings
 
 ## definitions:
 - **primary** the best assembly (haplotype) for the species, to be used in the primary multiple-alignment
