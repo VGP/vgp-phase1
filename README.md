@@ -29,3 +29,8 @@ that is not in the other.
 2. 44 RefSeq assemblies have an added **chrMT** sequence from the GenBank assembly
 3. 124 RefSeq has removed the **chrMT** sequence that was in the GenBank assembly
 4. 31 assemblies have the same count of sequences, but each one has a unique **chrMT** sequence
+
+## To Do List:
+- common names need to be coordinated between UCSC names and the names
+  from the spreadsheet.  We have a lot of different names right now,
+  in general Erich's spreadsheet names will most likely prevail.
