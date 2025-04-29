@@ -4,7 +4,7 @@ and publication
 
 ### status:
 - 2025-04-29 - assembly list verified, correctly repeat masked sequences
-             - now available at: [UCSC hgdownload](https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/)
+             now available at: [UCSC hgdownload](https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/)
 - 2025-04-21 - finishing the complete RepeatMasking of all the assemblies
 - 2025-04-11 - Checking, verifying the assembly listings
 
