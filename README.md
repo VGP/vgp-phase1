@@ -3,6 +3,10 @@ repository for materials to do with the VGP phase 1 data freeze, analyses,
 and publication
 
 ### status:
+- 2025-05-08 - replaced primary/otherChordates/GCF_010993605.1 with updated
+            sea lamprey assembly: primary/otherChordates/GCA_048934315.1,
+            moved GCF_010993605.1 to secondary,
+            renamed GCF_009914755.1 to GCA_009914755.4 (T2T-CHM13v2.0)
 - 2025-04-29 - assembly list verified, correctly repeat masked sequences
              now available at: [UCSC hgdownload](https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/)
 - 2025-04-21 - finishing the complete RepeatMasking of all the assemblies
@@ -12,10 +16,10 @@ and publication
 - **primary** the best assembly (haplotype) for the species, to be used in the primary multiple-alignment
 - **seconday** the alternate haplotype that corresponds to the **primary** assembly for this species.
 
-## counting assemblies (total: 844 = 581 + 263)
+## counting assemblies (total: 845 = 581 + 264)
 1. primary: 581 == `cut -f16 VGPPhase1-freeze-1.0.tsv | grep -c GC`
 2. primary with RefSeq version: 246 == `cut -f16,17 VGPPhase1-freeze-1.0.tsv | grep -c GCF`
-3. secondary: 263 == `cut -f22 VGPPhase1-freeze-1.0.tsv | tr ',' '\n' | tr -d ' ' | grep GC | wc -l`
+3. secondary: 264 == `cut -f22 VGPPhase1-freeze-1.0.tsv | tr ',' '\n' | tr -d ' ' | grep GC | wc -l`
 
 ## GenBank vs. RefSeq assemblies
 
