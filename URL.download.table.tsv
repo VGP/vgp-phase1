@@ -1,4 +1,3 @@
-# accession	download URL	primary/secondary	VGP clade
 GCA_048565345.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/amphibians/GCA_048565345.1.fa.gz	primary	amphibians
 GCF_905171765.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/amphibians/GCF_905171765.1.fa.gz	primary	amphibians
 GCA_038501925.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/amphibians/GCA_038501925.1.fa.gz	primary	amphibians
@@ -383,13 +382,13 @@ GCA_040894355.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/repti
 GCA_965113315.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/reptiles/GCA_965113315.1.fa.gz	primary	reptiles
 GCF_035149785.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/reptiles/GCF_035149785.1.fa.gz	primary	reptiles
 GCA_964198595.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/otherChordates/GCA_964198595.1.fa.gz	primary	otherChordates
-GCF_010993605.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/otherChordates/GCF_010993605.1.fa.gz	primary	otherChordates
 GCA_964187855.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/otherChordates/GCA_964187855.1.fa.gz	primary	otherChordates
 GCA_963924565.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/otherChordates/GCA_963924565.1.fa.gz	primary	otherChordates
 GCA_947561715.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/otherChordates/GCA_947561715.1.fa.gz	primary	otherChordates
 GCA_965202585.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/otherChordates/GCA_965202585.1.fa.gz	primary	otherChordates
 GCA_964204865.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/otherChordates/GCA_964204865.1.fa.gz	primary	otherChordates
 GCA_918807975.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/otherChordates/GCA_918807975.1.fa.gz	primary	otherChordates
+GCA_048934315.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/otherChordates/GCA_048934315.1.fa.gz	primary	otherChordates
 GCA_947623445.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/otherChordates/GCA_947623445.1.fa.gz	primary	otherChordates
 GCA_963675345.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/otherChordates/GCA_963675345.1.fa.gz	primary	otherChordates
 GCA_963082875.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/otherChordates/GCA_963082875.1.fa.gz	primary	otherChordates
@@ -569,12 +568,12 @@ GCA_046562895.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/mamma
 GCF_028885655.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/primates/GCF_028885655.2.fa.gz	primary	primates
 GCF_028885625.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/primates/GCF_028885625.2.fa.gz	primary	primates
 GCF_028858775.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/primates/GCF_028858775.2.fa.gz	primary	primates
+GCA_009914755.4	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/primates/GCA_009914755.4.fa.gz	primary	primates
 GCF_020740605.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/primates/GCF_020740605.2.fa.gz	primary	primates
 GCF_029281585.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/primates/GCF_029281585.2.fa.gz	primary	primates
 GCF_029289425.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/primates/GCF_029289425.2.fa.gz	primary	primates
 GCF_027406575.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/primates/GCF_027406575.1.fa.gz	primary	primates
 GCF_028878055.3	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/primates/GCF_028878055.3.fa.gz	primary	primates
-GCF_009914755.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/primates/GCF_009914755.1.fa.gz	primary	primates
 GCF_037993035.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/primates/GCF_037993035.1.fa.gz	primary	primates
 GCA_040954625.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/invertebrate/GCA_040954625.2.fa.gz	primary	invertebrate
 GCA_015852565.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/invertebrate/GCA_015852565.1.fa.gz	primary	invertebrate
@@ -746,6 +745,7 @@ GCA_031021085.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/rep
 GCA_964251985.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/reptiles/GCA_964251985.1.fa.gz	secondary	reptiles
 GCA_964234825.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/reptiles/GCA_964234825.1.fa.gz	secondary	reptiles
 GCA_964270875.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/reptiles/GCA_964270875.1.fa.gz	secondary	reptiles
+GCF_010993605.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/otherChordates/GCF_010993605.1.fa.gz	secondary	otherChordates
 GCF_040869285.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/otherChordates/GCF_040869285.1.fa.gz	secondary	otherChordates
 GCA_965202575.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/otherChordates/GCA_965202575.1.fa.gz	secondary	otherChordates
 GCA_964204955.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/otherChordates/GCA_964204955.1.fa.gz	secondary	otherChordates
