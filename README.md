@@ -3,6 +3,9 @@ repository for materials to do with the VGP phase 1 data freeze, analyses,
 and publication
 
 ### status:
+- 2025-05-10 - added taxId and taxon strings from NCBI for taxonomy analysis
+            in two files: primary.taxon.metaData.tsv
+            and secondary.taxon.metaData.tsv
 - 2025-05-08 - replaced primary/otherChordates/GCF_010993605.1 with updated
             sea lamprey assembly: primary/otherChordates/GCA_048934315.1,
             moved GCF_010993605.1 to secondary,
