@@ -17,4 +17,4 @@
 - those taxon IDs can be converted to the assembly accession or to common names
 
 ### for entertainment purpose only:
-- [Sun Burst interactive chart](https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/vgpSunBurst.html)
+- [Sun Burst interactive chart](https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/vgpSunBurst.html) - not perfect, but fun to play with
