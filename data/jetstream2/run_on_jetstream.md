@@ -1,71 +1,63 @@
-Running analyses on Jetstream2 and accessing the genomeark2 bucket is straightforward.
-In this README, we'll guide you through launching an instance—either a preconfigured one or a clean instance that you can configure yourself.
+# Running Analyses on Jetstream2 with Planemo and Accessing the GenomeArk Bucket
 
-We'll focus on using Planemo, a command-line tool for interacting with Galaxy, but you're free to use the tool of your choice. Planemo be used to either start an analysis on a Galaxy instance or to run the workflow locally.
+## Introduction
 
-The following is an overview of the steps we will perform:
+This guide walks you through running analyses on Jetstream2 and accessing the GenomeArk bucket. You can launch either a preconfigured instance or a clean instance that you configure yourself. We'll focus on using [Planemo](https://planemo.readthedocs.io/en/latest/), a command-line tool for working with [Galaxy](https://galaxyproject.org/) workflows. Planemo can run workflows locally or on a Galaxy instance.
 
- 1. Configure access [SSH or Phassprahes](https://docs.jetstream-cloud.org/ui/exo/access-instance/?h=)
- 2. [Create an instance](https://docs.jetstream-cloud.org/ui/exo/create_instance/) using Exosphere 
- 3. [Create and mount a workspace volume](https://docs.jetstream-cloud.org/ui/exo/storage/)
- 4. Run planemo 
+### Overview
 
-# Configure access SSH or Phassprahes
+1. [Configure access](https://docs.jetstream-cloud.org/ui/exo/access-instance/?h=) via SSH or passphrases
+2. [Create a Jetstream2 instance](https://docs.jetstream-cloud.org/ui/exo/create_instance/)
+3. [Create and mount a workspace volume](https://docs.jetstream-cloud.org/ui/exo/storage/)
+4. Run Planemo
 
-Instructions for how to access instance can be found here [Accessing an Exosphere Instance](https://docs.jetstream-cloud.org/ui/exo/access-instance/?h=)
-and we would recommend that you set up SSH keys. Which can easaly be done by clicking the create button and then selecting SSH Public Key.
+---
+
+## 1. Configure Access: SSH or Passphrases
+
+Follow [this guide](https://docs.jetstream-cloud.org/ui/exo/access-instance/?h=) to access your Jetstream2 instance. We recommend setting up SSH keys, which can be easily done via Exosphere:
+
+1. Go to Exosphere
+2. Click **Create** → **SSH Public Key**
 
 ![Add public key](./images/upload_ssh_key.png)
-# Create instance
 
-Instruction for how to create a new instance cound be found at [Create an instance](https://docs.jetstream-cloud.org/ui/exo/create_instance/) at Exosphere. It's really simple and you will
-basically follow these steps:
+---
 
- 1. Click Create button --> Instance
- 2. Select source
-    - By type --> Create a clean instance (recommended is Ubuntu)  
-    - By Image --> Planemo-V0-75-30-20250522
- 3. Create Instance
-    - Select Flavor: m3.large
-    - Choose previously uploaded SSH key
+## 2. Create an Instance
 
-## Configure instance
+Refer to the [Exosphere documentation](https://docs.jetstream-cloud.org/ui/exo/create_instance/) for creating a new instance.
 
-If you choose to create a clean instance you will need to do some configurerion to mount  the
-`genomeark bucket` and to install planemo.
+### Steps:
 
-### Install dependencies
+1. Click **Create** → **Instance**
+2. Select your image:
+
+   * **By Type**: Create a clean instance (recommended: Ubuntu)
+   * **By Image**: Use `Planemo-V0-75-30-20250522`
+3. Configure your instance:
+
+   * **Flavor**: `m3.large`
+   * **SSH Key**: Select your previously uploaded key
+
+> If you choose a clean instance, you’ll need to manually configure it: install dependencies, mount the GenomeArk bucket, and install Planemo.
+
+### 2.1 Install Dependencies
 
 ```bash
 sudo apt-get install -y \
-   autoconf \
-   automake \
-   cryptsetup \
-   fuse2fs \
-   git \
-   fuse \
-   libfuse-dev \
-   libseccomp-dev \
-   libtool \
-   pkg-config \
-   runc \
-   squashfs-tools \
-   squashfs-tools-ng \
-   uidmap \
-   wget \
-   zlib1g-dev \
-   libsubid-dev \
-   python3-lib2to3 \
-   s3fs \
-   btop
+   autoconf automake cryptsetup fuse2fs git fuse libfuse-dev \
+   libseccomp-dev libtool pkg-config runc squashfs-tools \
+   squashfs-tools-ng uidmap wget zlib1g-dev libsubid-dev \
+   python3-lib2to3 s3fs btop
 ```
 
-### Mount genomeark bucket
+### 2.2 Mount the GenomeArk Bucket
 
-To mount the genomeark bucket to a folder you will need to have installed `s3fs`, see previous step.
-You will then create the following file `/etc/systemd/system/mount-genomeark-js2.service` with content:
+Create the service file:
 
 ```bash
+sudo tee /etc/systemd/system/mount-genomeark-js2.service > /dev/null <<EOF
 [Unit]
 Description=Mount genomeark S3 bucket using s3fs
 After=network-online.target
@@ -73,137 +65,132 @@ Wants=network-online.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/s3fs genomeark /genomeark-js2 -o url=https://js2.jetstream-cloud.org:8001 -o use_path_request_style -o allow_other -o public_bucket=1 -o uid=1001 -o gid=1001
+ExecStart=/usr/bin/s3fs genomeark /genomeark-js2 -o url=https://js2.jetstream-cloud.org:8001 \
+    -o use_path_request_style -o allow_other -o public_bucket=1 -o uid=1001 -o gid=1001
 RemainAfterExit=true
 
 [Install]
 WantedBy=multi-user.target
+EOF
 ```
 
-We will then create the folder we intead to mount the bucket to and ask the system to apply the file, mount the bucket, and lastly make sure that the folder is mount after a reboot.
+Mount the bucket:
+
 ```bash
 sudo mkdir /genomeark-js2
-# Apply the new system file
 sudo systemctl daemon-reexec
 sudo systemctl enable mount-genomeark-js2.service
-# Make sure that the configuration is run after a boot.
 sudo systemctl start mount-genomeark-js2.service
 ```
 
-### Install Singularity
+### 2.3 Install Singularity
 
-To solve workflow dependencies galaxy/planemo can use singularity, which also can
-be used to run a temporary postgres database. A posgres database may be neccessary when running more
-complexed workflows locally, where you workflow otherwice could end prematiorly due to a locked database.
+Install Go (required to build Singularity):
 
-To compile singularity you will need to install GO version 1.24
 ```bash
-export VERSION=1.24.1 OS=linux ARCH=amd64 && \
-  wget https://dl.google.com/go/go$VERSION.$OS-$ARCH.tar.gz && \
-  sudo tar -C /usr/local -xzvf go$VERSION.$OS-$ARCH.tar.gz && \
-  rm go$VERSION.$OS-$ARCH.tar.gz
+export VERSION=1.24.1 OS=linux ARCH=amd64
+wget https://dl.google.com/go/go$VERSION.$OS-$ARCH.tar.gz
+sudo tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
+rm go$VERSION.$OS-$ARCH.tar.gz
 
-echo 'export PATH=/usr/local/go/bin:$PATH' >> ~/.bashrc && \
-  source ~/.bashrc
+echo 'export PATH=/usr/local/go/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
 ```
 
-Install singularity 4.3.0
+Install Singularity:
+
 ```bash
-export VERSION=4.3.0 && \
-    wget https://github.com/sylabs/singularity/releases/download/v${VERSION}/singularity-ce-${VERSION}.tar.gz && \
-    tar -xzf singularity-ce-${VERSION}.tar.gz && \
-    cd singularity-ce-${VERSION}
+export VERSION=4.3.0
+wget https://github.com/sylabs/singularity/releases/download/v${VERSION}/singularity-ce-${VERSION}.tar.gz
 
-./mconfig && \
-    make -C builddir && \
-    sudo make -C builddir install
-
+# Extract and build
+ tar -xzf singularity-ce-${VERSION}.tar.gz
+cd singularity-ce-${VERSION}
+./mconfig
+make -C builddir
+sudo make -C builddir install
 cd ..
-
 rm -r singularity-ce-${VERSION}*
 ```
 
-More detailed instructions can be found at [sylabs quick start](https://docs.sylabs.io/guides/latest/user-guide/quick_start.html)
+[Full guide](https://docs.sylabs.io/guides/latest/user-guide/quick_start.html)
 
-### Install conda
-
-To solve workflow dependencies galaxy/planemo can conda, which then need to be installed.
+### 2.4 Install Conda
 
 ```bash
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-$(uname -m).sh
-# When asked to add conda to auto initate using bashrc -- skip it
 bash Miniforge3-Linux-$(uname -m).sh
 ```
 
-### Install planemo
+> Tip: When prompted, **do not auto-init Conda in `.bashrc`**.
+
+### 2.5 Install Planemo
 
 ```bash
 sudo python3 -m venv /opt/planemo
-sudo chown exouser -R /opt/planemo/
+sudo chown $USER -R /opt/planemo/
 source /opt/planemo/bin/activate
-pip3 install planemo==0.75.30 galaxy-job-config-init
-
+pip install planemo==0.75.30 galaxy-job-config-init
 ```
 
-Configure system to autamtically add planemo to the PATH during both by
-creating the following file `/etc/profile.d/custom_path.sh` and adding the following content
+Add Planemo to the PATH:
+
 ```bash
+sudo tee /etc/profile.d/custom_path.sh > /dev/null <<EOF
 #!/bin/sh
 export PATH="/opt/planemo/bin/:$PATH"
+EOF
+
 sudo chmod +x /etc/profile.d/custom_path.sh
 ```
 
+---
 
-# Create workspace volume
+## 3. Create a Workspace Volume
 
-When we run analysis on the server we may need to use a lot of storage during and
-after the analysis is done. We can easaly mount extra storage to the instance by following the
-steops found at [Using Storage Under Exosphere](https://docs.jetstream-cloud.org/ui/exo/storage/).
-For the example data we recommend that you create a volume with size of atleast 100GB. If you name it
-`workspace` you later be able to find it on your instance at `/media/volume/workspace/`.
+You’ll likely need more disk space. Follow [these instructions](https://docs.jetstream-cloud.org/ui/exo/storage/) to attach a volume. We recommend creating a volume of at least **100GB** named `workspace`. It will mount at:
 
-
-# Runing planemo
-
-Planemo can be run in multiple ways and we will running it locally on the instance, more information
-can be foun at [Planemo --> Running Galaxy workflows](https://planemo.readthedocs.io/en/latest/running.html)
-
-The include example will be running a workflow named [PretextMap Generation from 1 or 2 haplotypes](https://iwc.galaxyproject.org/workflow/hi-c-contact-map-for-assembly-manual-curation-main/) and use data located on
-`genomeark bucket`. 
-
-Follow these commands to run planemo:
 ```bash
-# Go to your mounted volume
-cd /media/volume/workspace/
+/media/volume/workspace/
+```
 
-# Create a temp folder
-mkdir temp
-# Folder where the final result will end up
-mkdir result
+---
+
+## 4. Running Planemo
+
+### 4.1 Running a Workflow
+
+Navigate to your workspace and run the analysis:
+
+```bash
+cd /media/volume/workspace/
+mkdir temp result
 
 TMPDIR="/media/volume/workspace/temp/" planemo run \
   ~/example_workflow/hi-c-map-for-assembly-manual-curation.ga \
   ~/example_workflow/hi-c-map-for-assembly-manual-curation-job.yaml \
   --database_type postgres_singularity \
-  --biocontainers --galaxy_branch v24.2.3  \
+  --biocontainers \
+  --galaxy_branch v24.2.3 \
   --download_outputs \
   --output_directory result \
   --job_config_file ~/example_workflow/job_conf.yaml
 ```
 
-This will do the following.
+This command will:
 
-1. run workflow `hi-c-map-for-assembly-manual-curation.ga`
-2. use input information found in `hi-c-map-for-assembly-manual-curation-job.yaml`
-3. use a postgres database ran in with singularity `--database_type postgres_singularity`
-4. use biocontainer to try to solve dependencies `--biocontainers`
-5. download the created output `--download_outputs`
-6. specify download folder to result `--output_directory result`
-7. specify resource usage (a very simple version) `--job_config_file ~/example_workflow/job_conf.yaml`
+* Run the specified workflow (`hi-c-map-for-assembly-manual-curation.ga`)
+* Use the inputs defined in your job YAML file (`hi-c-map-for-assembly-manual-curation-job.yaml`)
+* Run a temporary PostgreSQL database with Singularity
+* Use galaxy version v24.2.3
+* Resolve dependencies via BioContainers
+* Save output files to `result/`
+* Apply resource configurations from `job_conf.yaml`
 
-## Example files
+### 4.2 Example Files
 
-Content of `hi-c-map-for-assembly-manual-curation-job.yaml`
+#### 4.2.1 `hi-c-map-for-assembly-manual-curation-job.yaml`
+
 ```yaml
 Haplotype 1:
   class: File
@@ -244,7 +231,8 @@ Do you want to trim the Hi-C data?: true
 Telomere repeat to suit species: CCCTAA
 ```
 
-Content of `job_conf.yaml`
+#### 4.2.2 `job_conf.yaml`
+
 ```yaml
 runners:
   local:
@@ -293,6 +281,6 @@ tools:
    environment: local_multi_2
  - id: samtools_merge
    environment: local_multi_4
-
 ```
+
 
