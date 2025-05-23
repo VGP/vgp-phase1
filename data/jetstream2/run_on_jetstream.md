@@ -284,5 +284,5 @@ tools:
    environment: local_multi_4
 ```
 # 5. FAQ
-- Where is the bucket located: the is mounted to `/genomeark-js2`
-- Will recommendtions work for all workflows: the recommendations are made for the example data, and may need to be modified for other workflows and data. 
+- Where is the bucket located: the bucket is mounted to a directory located at `/genomeark-js2`
+- Will the recommendations work for all workflows: the recommendations are tailored for the example data provided. They may require adjustments for different workflows or datasets. 
