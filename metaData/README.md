@@ -1,7 +1,7 @@
-## the annotations file is a derivative
+### the annotations file is a derivative
 
-### From the spreadsheet **VGPPhase1-freeze-1.0.tsv** and
-###    **UCSC.alignment.set.metaData.tsv**
+From the spreadsheet **VGPPhase1-freeze-1.0.tsv** and
+  **UCSC.alignment.set.metaData.tsv**
 
 With a selection of columns from those two files collected together
 via the following command line steps:
