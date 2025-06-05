@@ -3,7 +3,7 @@ The masked sizes vs. assembly size graph does **not** include the non-vertebrate
 The **out groups** are:
 
 | count | group | pri/sec |
-| --: | :------: | :-------: }
+| --: | :------: | :-------: |
 | 1 | echinoderm | primary |
 | 4 | invertebrate | primary |
 | 11 | otherChordates| primary |
