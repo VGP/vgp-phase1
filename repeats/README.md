@@ -1,6 +1,6 @@
-The masked sizes vs. assembly size graph does **not** include the non-vertebrate **out groups**.
+## The masked sizes vs. assembly size graph does **not** include the non-vertebrate **out groups**.
 
-The **out groups** are:
+## The **out groups** are:
 
 | count | group | pri/sec |
 | --: | :------: | :-------: |
@@ -11,7 +11,7 @@ The **out groups** are:
 | 4 | otherChordates| secondary |
 | 23 | total |
 
-The graph includes the following VGP groupings:
+## The graph includes the following VGP groupings:
 
 | count | group |
 | --: | :------: |
@@ -30,3 +30,19 @@ The graph includes the following VGP groupings:
 | 565 | primary |
 | 257 | secondary |
 | 822 | total |
+
+## The four files:
+
+- primary.DFamMasking.tsv
+- primary.modelerMasking.tsv
+- secondary.DFamMasking.tsv
+- secondary.modelerMasking.tsv
+
+Show the listing of assemblies and the type of masking that was
+applied to the download files from:
+[UCSC alignment](https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/)
+
+The RepeatModeler families were used when they applied more masking
+to the assembly than was obtained from the DFam libraries from
+RepeatMasker
+
