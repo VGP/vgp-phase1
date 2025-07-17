@@ -191,6 +191,7 @@ GCA_947034865.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/fish/
 GCF_914725855.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/fish/GCF_914725855.1.fa.gz	primary	fish
 GCF_958295425.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/fish/GCF_958295425.1.fa.gz	primary	fish
 GCF_030936135.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds/GCF_030936135.1.fa.gz	primary	birds
+GCF_037038585.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds/GCF_037038585.1.fa.gz	primary	birds
 GCF_009829145.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds/GCF_009829145.1.fa.gz	primary	birds
 GCA_964237585.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds/GCA_964237585.1.fa.gz	primary	birds
 GCA_964035555.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds/GCA_964035555.1.fa.gz	primary	birds
@@ -218,7 +219,6 @@ GCA_903797595.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds
 GCF_020745825.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds/GCF_020745825.1.fa.gz	primary	birds
 GCA_036417535.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds/GCA_036417535.1.fa.gz	primary	birds
 GCA_964417175.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds/GCA_964417175.1.fa.gz	primary	birds
-GCA_036971685.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds/GCA_036971685.2.fa.gz	primary	birds
 GCF_028389875.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds/GCF_028389875.1.fa.gz	primary	birds
 GCF_017639655.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds/GCF_017639655.2.fa.gz	primary	birds
 GCA_039878825.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/primary/birds/GCA_039878825.1.fa.gz	primary	birds
@@ -669,7 +669,6 @@ GCA_037157625.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/bir
 GCA_034619455.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/birds/GCA_034619455.1.fa.gz	secondary	birds
 GCA_028501385.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/birds/GCA_028501385.1.fa.gz	secondary	birds
 GCA_965178535.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/birds/GCA_965178535.1.fa.gz	secondary	birds
-GCF_037038585.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/birds/GCF_037038585.1.fa.gz	secondary	birds
 GCA_045364805.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/birds/GCA_045364805.1.fa.gz	secondary	birds
 GCA_028858625.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/birds/GCA_028858625.2.fa.gz	secondary	birds
 GCA_964211795.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/birds/GCA_964211795.1.fa.gz	secondary	birds
@@ -706,6 +705,7 @@ GCA_045345505.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/bir
 GCA_036417975.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/birds/GCA_036417975.1.fa.gz	secondary	birds
 GCA_008822115.3	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/birds/GCA_008822115.3.fa.gz	secondary	birds
 GCA_027557775.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/birds/GCA_027557775.1.fa.gz	secondary	birds
+GCA_036971685.2	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/birds/GCA_036971685.2.fa.gz	secondary	birds
 GCA_964188365.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/reptiles/GCA_964188365.1.fa.gz	secondary	reptiles
 GCA_965140265.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/reptiles/GCA_965140265.1.fa.gz	secondary	reptiles
 GCA_045781095.1	https://hgdownload.soe.ucsc.edu/hubs/VGP/alignment/secondary/reptiles/GCA_045781095.1.fa.gz	secondary	reptiles
