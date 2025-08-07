@@ -568,18 +568,18 @@
 ###	###	not	included	in	the	graph:	###
 ###	####	#####	#######	#######	######	#########:	#########
 # %masked	asmSize	nonRepeat	pri/sec	VGPgroup	comName	sciName	accession
-78.59	3057523704	primary	otherChordates	Atlantic hagfish	Myxine glutinosa	GCA_964187855.1
-63.38	605507883	primary	otherChordates	clonial sea squirt	Aplidium turbinatum	GCA_918807975.1
-60.02	801813394	primary	otherChordates	Thalia democratica	Thalia democratica	GCA_965202585.1
-56.51	1042475189	primary	otherChordates	European river lamprey	Lampetra fluviatilis	GCA_964198595.1
-45.16	417601740	primary	echinoderm	common starfish	Asterias rubens	GCF_902459465.1
-38.40	490782628	primary	invertebrate	Florida amphioxus	Branchiostoma floridae	GCA_015852565.1
-38.35	377969001	primary	otherChordates	leathery sea squirt	Styela clava	GCA_964204865.1
-36.80	405532174	primary	invertebrate	Belcher's lancelet	Branchiostoma belcheri	GCA_019207075.1
-36.57	906935117	primary	otherChordates	Trididemnum clinides	Trididemnum clinides	GCA_963675345.1
-35.09	308571401	primary	otherChordates	European sea squirt	Ascidiella aspersa	GCA_963924565.1
-33.50	210089204	primary	otherChordates	light-bulb sea squirt	Clavelina lepadiformis	GCA_947623445.1
-32.48	129324498	primary	otherChordates	Orange-tipped sea squirt	Corella eumyota	GCA_963082875.1
-32.01	196975169	primary	otherChordates	pink sea squirt	Ascidia mentula	GCA_947561715.1
-29.27	329694088	primary	invertebrate	acorn worm	Balanoglossus misakiensis	GCA_040954625.2
-27.49	458287516	primary	invertebrate	European lancelet	Branchiostoma lanceolatum	GCA_035083965.1
+78.59	3057523704	2402907878	primary	otherChordates	Atlantic hagfish	Myxine glutinosa	GCA_964187855.1
+63.38	605507883	383770896	primary	otherChordates	clonial sea squirt	Aplidium turbinatum	GCA_918807975.1
+60.02	801813394	481248399	primary	otherChordates	Thalia democratica	Thalia democratica	GCA_965202585.1
+56.51	1042475189	589102729	primary	otherChordates	European river lamprey	Lampetra fluviatilis	GCA_964198595.1
+45.16	417601740	188588945	primary	echinoderm	common starfish	Asterias rubens	GCF_902459465.1
+38.40	490782628	188460529	primary	invertebrate	Florida amphioxus	Branchiostoma floridae	GCA_015852565.1
+38.35	377969001	144951111	primary	otherChordates	leathery sea squirt	Styela clava	GCA_964204865.1
+36.80	405532174	149235840	primary	invertebrate	Belcher's lancelet	Branchiostoma belcheri	GCA_019207075.1
+36.57	906935117	331666172	primary	otherChordates	Trididemnum clinides	Trididemnum clinides	GCA_963675345.1
+35.09	308571401	108277704	primary	otherChordates	European sea squirt	Ascidiella aspersa	GCA_963924565.1
+33.50	210089204	70379883	primary	otherChordates	light-bulb sea squirt	Clavelina lepadiformis	GCA_947623445.1
+32.48	129324498	42004596	primary	otherChordates	Orange-tipped sea squirt	Corella eumyota	GCA_963082875.1
+32.01	196975169	63051751	primary	otherChordates	pink sea squirt	Ascidia mentula	GCA_947561715.1
+29.27	329694088	96501459	primary	invertebrate	acorn worm	Balanoglossus misakiensis	GCA_040954625.2
+27.49	458287516	125983238	primary	invertebrate	European lancelet	Branchiostoma lanceolatum	GCA_035083965.1
