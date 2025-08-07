@@ -564,7 +564,9 @@
 8.30	1203372763	primary	birds	plumbeous ibis	Theristicus caerulescens	GCA_020745775.1
 8.11	1239437416	primary	birds	Maguari stork	Ciconia maguari	GCA_017639555.1
 7.15	1195847496	primary	birds	gyrfalcon	Falco rusticolus	GCF_015220075.1
+###	####	#######	#######	######	#########:	#########
 ###	not	included	in	the	graph:	###
+###	####	#######	#######	######	#########:	#########
 # %masked	asmSize	pri/sec	VGPgroup	comName	sciName	accession
 78.59	3057523704	primary	otherChordates	Atlantic hagfish	Myxine glutinosa	GCA_964187855.1
 63.38	605507883	primary	otherChordates	clonial sea squirt	Aplidium turbinatum	GCA_918807975.1
