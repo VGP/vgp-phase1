@@ -46,3 +46,11 @@ The RepeatModeler families were used when they applied more masking
 to the assembly than was obtained from the DFam libraries from
 RepeatMasker
 
+## Repeat Modeler files:
+
+Access to all Repeat Modeler files for repeats analysis can be found
+via the following S3 resources:
+
+- [primary assemblies](https://genomeark.s3.amazonaws.com/downstream_analyses/repeats/RepeatModeler/README.txt)
+- [secondary assemblies](https://genomeark.s3.amazonaws.com/downstream_analyses/repeats/RepeatModeler/secondary/README.txt)
+- [corrected large assemblies](https://genomeark.s3.amazonaws.com/downstream_analyses/repeats/RepeatModeler/over10G/README.over10G.txt)
