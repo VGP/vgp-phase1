@@ -283,6 +283,74 @@ tools:
  - id: samtools_merge
    environment: local_multi_4
 ```
+
+## Scale jobs on Jetstream2
+
+Depending on your needs, there are several possible solutions. For users familiar with Slurm, setting up a virtual cluster is an option. Alternatively, you can deploy a Kubernetes system for more scalable or containerized workloads. For simpler cases where you need to run multiple independent jobs in parallel on a single instance, you can use the OpenStack API to spin up instances as needed.
+
+
+### Virtual cluster
+
+Jetstream have instructions for setting up a Virtual cluster, which can be found at [Virtual Clusters on Jetstream2](https://docs.jetstream-cloud.org/general/virtualclusters/#references)
+
+### Kubernetes
+
+Jetstream have instructions for setting up a Kubernetes system, which can be found at [Kubernetes on Jetstream2](https://docs.jetstream-cloud.org/general/kubernetes/)
+
+### Openstack api with python
+
+The OpenStack API allows you to programmatically launch instances and provide them with a predefined configuration or “recipe” that specifies how the instance should be built and what tasks it should perform.
+
+An example implementation of this approach can be found in the [run_multiple_jobs_on_jetstream.py](./run_multiple_jobs_on_jetstream.py) script in this directory.
+
+The general workflow for running a job on an instance is as follows:
+1. Create instance (install necessary packages)
+2. Fetch data to process (swift to download from object storage)
+3. Run commands/script to process data
+4. Upload producesed data (swift upload to object storage)
+5. Turn off instance
+
+Example of cloud-config
+```yaml
+#cloud-config
+package_update: true
+package_upgrade: true
+# Install packages
+packages:
+  - samtools
+  - python3-swiftclient
+# Setup environment variables used to write data to object storage
+write_files:
+  - path: /etc/profile.d/myenv.sh
+    content: |
+      export OS_AUTH_TYPE={auth_type}
+      export OS_AUTH_URL={auth_url}
+      export OS_IDENTITY_API_VERSION={identify_api_version}
+      export OS_REGION_NAME={region_name}
+      export OS_INTERFACE=${interface}
+      export OS_APPLICATION_CREDENTIAL_ID={application_credential_id}
+      export OS_APPLICATION_CREDENTIAL_SECRET={application_credential_secret}
+users:
+  - name: exouser
+    plain_text_passwd: testar2020
+    lock_passwd: false
+    groups: sudo
+    shell: /bin/bash
+    sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+runcmd:
+    - sudo -u exouser bash -c "
+      source /etc/profile.d/myenv.sh;
+      cd /home/exouser;
+      swift download genomeark species/Taeniopygia_guttata/bTaeGut1/genomic_data/pacbio/m151224_065019_sherri_c100974672550000001823228308031671_s1_p0.subreads.bam -o m151224_065019_sherri_c100974672550000001823228308031671_s1_p0.subreads.bam;
+      mkdir result;
+      samtools sort -@ 8 m151224_065019_sherri_c100974672550000001823228308031671_s1_p0.subreads.bam -o result/sorted.bam;
+      swift upload YOUR_OUTPUT_BUCKET result/ --segment-container test-smeds_segments -S 5000000000;
+      sudo poweroff -f;
+    " &
+```
+
+**NOTE**: when your analysis has a large set of dependencies or/and will be run multiple times, it’s usually best to build a custom image with all dependencies pre-installed to save time and compute resources. Please see [Snapshots and Images](https://docs.jetstream-cloud.org/getting-started/snapshots/) for information about this.
+
 # 5. FAQ
 - Where is the bucket located: the bucket is mounted to a directory located at `/genomeark-js2`
 - Will the recommendations work for all workflows: the recommendations are tailored for the example data provided. They may require adjustments for different workflows or datasets. 

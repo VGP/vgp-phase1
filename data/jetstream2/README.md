@@ -1,6 +1,7 @@
 # Different Options for Accessing GenomeArk Object Storage on Jetstream2
 
 [Google Slides}(https://docs.google.com/presentation/d/1tZmgUFDOhFhePVD7Y35mguiUyQSWyKfg_OZrNFrlJQI/edit?usp=sharing)
+[Minimal File Explorer](https://js2.jetstream-cloud.org:8001/genomeark/index.html)
 
 The GenomeArk object storage hosted on Jetstream is publicly accessible and supports multiple access methods. Here's a few examples.
 
